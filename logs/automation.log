@@ -1,0 +1,1238 @@
+22:00:12.167 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Order.xml"
+22:00:12.461 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Order.xml
+
+22:00:14.338 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+22:00:19.297 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+22:00:19.360 [main] INFO  testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:18)oggger - ****** Starting Add to cart Validation Test ******
+22:00:25.502 [main] INFO  testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:38)oggger - ******* Adding product to cart *******
+22:00:25.986 [main] INFO  testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:40)oggger - ******* Opening Product page *******
+22:00:36.109 [main] ERROR testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:53)oggger - Exception during Add to cart validation: element not interactable
+  (Session info: chrome=137.0.7151.122)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f1bd00428afee724a740a9173d5dbf2, clickElement {id=f.AE3386D906CFDC3CA012F0E8C83DD64D.d.9B0A41D5732A9E62BDA4B63CB2035CBD.e.175}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54210}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54210/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7f1bd00428afee724a740a9173d5dbf2)] -> xpath: //a[contains(text(),'ck one shock for him Deodorant')]]
+Session ID: 7f1bd00428afee724a740a9173d5dbf2
+22:00:36.452 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+22:00:36.858 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+22:00:36.858 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+22:00:36.858 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+22:18:07.433 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Order.xml"
+22:18:07.686 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Order.xml
+
+22:18:09.613 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+22:18:13.484 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+22:18:13.516 [main] INFO  testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:18)oggger - ****** Starting Add to cart Validation Test ******
+22:18:19.547 [main] INFO  testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:38)oggger - ******* Adding product to cart *******
+22:18:20.114 [main] INFO  testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:40)oggger - ******* Opening Product page *******
+22:18:30.205 [main] ERROR testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:53)oggger - Exception during Add to cart validation: element not interactable
+  (Session info: chrome=137.0.7151.122)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e6a835d021c9a7c174f3e3d04d56beb5, clickElement {id=f.6AA4C90CBFB0DA15A1DAAE8EC78B3860.d.CD9E14CB3484FFC744BDDABD173C4C8A.e.159}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54666}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54666/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e6a835d021c9a7c174f3e3d04d56beb5)] -> xpath: //a[contains(@title,'ck')]]
+Session ID: e6a835d021c9a7c174f3e3d04d56beb5
+22:18:30.542 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+22:18:30.947 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+22:18:30.947 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+22:18:30.947 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+22:29:21.913 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Order.xml"
+22:29:22.200 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Order.xml
+
+22:29:24.121 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+22:29:33.302 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+22:29:33.368 [main] INFO  testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:18)oggger - ****** Starting Add to cart Validation Test ******
+22:29:39.263 [main] INFO  testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:38)oggger - ******* Adding product to cart *******
+22:29:39.808 [main] INFO  testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:40)oggger - ******* Opening Product page *******
+22:29:49.844 [main] ERROR testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:53)oggger - Exception during Add to cart validation: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'ck one shock for him Deodorant')]//div[contains(@class,'thumbnail')]//img"}
+  (Session info: chrome=137.0.7151.122)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a323d82a5302b99c131a2689305838ee, findElement {using=xpath, value=//a[contains(text(),'ck one shock for him Deodorant')]//div[contains(@class,'thumbnail')]//img}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55057}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55057/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a323d82a5302b99c131a2689305838ee
+22:29:50.165 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+22:29:50.669 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+22:29:50.669 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+22:29:50.669 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+22:51:34.021 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Order.xml"
+22:51:34.297 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Order.xml
+
+22:51:36.247 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+22:51:40.770 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+22:51:40.803 [main] INFO  testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:18)oggger - ****** Starting Add to cart Validation Test ******
+22:51:46.871 [main] INFO  testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:38)oggger - ******* Adding product to cart *******
+22:51:47.347 [main] INFO  testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:40)oggger - ******* Opening Product page *******
+22:51:50.932 [main] ERROR testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:53)oggger - Exception during Add to cart validation: Cannot invoke "String.trim()" because "quantityText" is null
+22:51:51.193 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+22:51:51.620 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+22:51:51.620 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+22:51:51.620 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+22:58:32.656 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Order.xml"
+22:58:32.948 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Order.xml
+
+22:58:36.443 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+22:58:40.126 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+22:58:40.157 [main] INFO  testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:18)oggger - ****** Starting Add to cart Validation Test ******
+22:58:47.175 [main] INFO  testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:38)oggger - ******* Adding product to cart *******
+22:58:47.671 [main] INFO  testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:40)oggger - ******* Opening Product page *******
+22:58:51.955 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+22:58:52.296 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+22:58:52.296 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+22:58:52.296 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+23:15:49.383 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Order.xml"
+23:15:49.657 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Order.xml
+
+23:15:51.377 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+23:15:55.929 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+23:15:55.949 [main] INFO  testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:18)oggger - ****** Starting Add to cart Validation Test ******
+23:16:01.631 [main] INFO  testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:38)oggger - ******* Adding product to cart *******
+23:16:02.080 [main] INFO  testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:40)oggger - ******* Opening Product page *******
+23:16:05.690 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+23:16:06.061 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+23:16:06.061 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+23:16:06.061 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+23:20:40.898 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Order.xml"
+23:20:41.186 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Order.xml
+
+23:20:54.185 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+23:20:58.255 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+23:20:58.288 [main] INFO  testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:18)oggger - ****** Starting Add to cart Validation Test ******
+23:21:05.337 [main] INFO  testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:38)oggger - ******* Adding product to cart *******
+23:21:05.836 [main] INFO  testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:40)oggger - ******* Opening Product page *******
+23:21:10.471 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+23:21:10.791 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+23:21:10.792 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+23:21:10.792 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+01:49:48.883 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+01:49:49.277 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+01:49:52.805 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+01:49:57.334 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+01:49:57.419 [main] INFO  testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:18)oggger - ****** Starting Add to cart Validation Test ******
+01:50:03.993 [main] INFO  testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:38)oggger - ******* Adding product to cart *******
+01:50:04.448 [main] INFO  testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:40)oggger - ******* Opening Product page *******
+01:50:08.521 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+01:50:08.871 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+01:50:08.871 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+01:50:08.871 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+01:50:09.991 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+01:50:13.893 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+01:50:13.898 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:20)oggger - ******** Starting checkout validation *******
+01:50:23.777 [main] ERROR testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:37)oggger - Exception during checkoutProduct validation: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=138.0.7204.169)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6d9f620bd9346bf5c3a85c73c65018cd, findElement {value=//td[@class='align_right'][1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52772}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52772/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d9f620bd9346bf5c3a85c73c65018cd
+01:50:23.980 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+01:50:24.023 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+01:50:24.025 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+01:50:24.025 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+06:52:56.117 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\AppData\Local\Temp\testng-eclipse--693664659\testng-customsuite.xml"
+06:52:56.370 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+06:52:56.373 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+06:52:56.375 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+06:52:56.375 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+06:52:56.376 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+06:52:56.376 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+06:52:56.377 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+06:52:56.377 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+06:52:56.379 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+06:52:56.387 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+06:52:56.389 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+06:52:56.389 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+06:52:56.390 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+06:52:56.390 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+06:52:56.391 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+06:52:56.391 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+06:52:56.393 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+06:52:56.393 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+06:52:56.394 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+06:52:56.394 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+06:52:56.397 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+06:52:56.398 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+06:52:56.398 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+06:52:56.398 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+06:52:56.404 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 6 ms.
+06:52:56.412 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
+06:52:56.413 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+06:52:56.414 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+06:52:56.414 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+06:52:56.414 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+06:52:56.420 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\AppData\Local\Temp\testng-eclipse--693664659\testng-customsuite.xml
+
+06:52:56.446 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] DynamicGraphHelper.createDynamicGraph() took 8 ms.
+06:52:56.550 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+06:52:56.551 [main] WARN  testBase.BaseClass.tearDown(BaseClass.java:153)oggger - Driver is null in tearDown for thread: 1. Could not quit browser.
+06:52:56.551 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+06:52:56.702 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.jq.Main@20a14b55: 88 ms
+06:52:56.719 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.FailedReporter@4044fb95: 17 ms
+06:52:56.733 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.XMLReporter@29df4d43: 13 ms
+06:52:56.743 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@52045dbe: 10 ms
+06:52:56.750 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@56a4479a: 6 ms
+06:52:56.750 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.internal.ExitCodeListener@62163b39: 0 ms
+06:53:32.775 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+06:53:33.066 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+06:53:39.854 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+06:53:43.839 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+06:53:43.901 [main] INFO  testCases.TC006_CheckoutProduct.verify_AddToCart(TC006_CheckoutProduct.java:20)oggger - ****** Starting Add to cart Validation Test ******
+06:53:50.756 [main] INFO  testCases.TC006_CheckoutProduct.verify_AddToCart(TC006_CheckoutProduct.java:40)oggger - ******* Adding product to cart *******
+06:53:51.236 [main] INFO  testCases.TC006_CheckoutProduct.verify_AddToCart(TC006_CheckoutProduct.java:42)oggger - ******* Opening Product page *******
+06:53:54.927 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:63)oggger - ******** Starting checkout validation *******
+06:54:09.050 [main] ERROR testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:80)oggger - Exception during checkoutProduct validation: no such element: Unable to locate element: {"method":"xpath","selector":"//td[@class='align_left']//a"}
+  (Session info: chrome=138.0.7204.169)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6937820d96717d0771b3c917d9de56e3, findElement {using=xpath, value=//td[@class='align_left']//a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59077}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59077/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6937820d96717d0771b3c917d9de56e3
+06:54:09.295 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+06:54:09.777 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+06:54:09.777 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+06:54:09.777 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+07:38:23.429 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\AppData\Local\Temp\testng-eclipse-166090728\testng-customsuite.xml"
+07:38:23.689 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:38:23.692 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+07:38:23.694 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:38:23.694 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+07:38:23.696 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:38:23.696 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+07:38:23.697 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:38:23.697 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+07:38:23.699 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:38:23.707 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
+07:38:23.709 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:38:23.709 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+07:38:23.710 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:38:23.710 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+07:38:23.711 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:38:23.711 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+07:38:23.715 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:38:23.715 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+07:38:23.715 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:38:23.716 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+07:38:23.718 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:38:23.718 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+07:38:23.718 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:38:23.719 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+07:38:23.724 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+07:38:23.734 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+07:38:23.736 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:38:23.736 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+07:38:23.736 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:38:23.736 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+07:38:23.749 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\AppData\Local\Temp\testng-eclipse-166090728\testng-customsuite.xml
+
+07:38:23.776 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+07:38:23.882 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+07:38:23.883 [main] WARN  testBase.BaseClass.tearDown(BaseClass.java:153)oggger - Driver is null in tearDown for thread: 1. Could not quit browser.
+07:38:23.883 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+07:38:24.050 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.jq.Main@20a14b55: 108 ms
+07:38:24.070 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.FailedReporter@4044fb95: 20 ms
+07:38:24.084 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.XMLReporter@29df4d43: 14 ms
+07:38:24.095 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@52045dbe: 11 ms
+07:38:24.106 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@56a4479a: 9 ms
+07:38:24.106 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.internal.ExitCodeListener@62163b39: 0 ms
+07:38:59.709 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\AppData\Local\Temp\testng-eclipse--1269530011\testng-customsuite.xml"
+07:38:59.958 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+07:38:59.960 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+07:38:59.962 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:38:59.962 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+07:38:59.963 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:38:59.964 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+07:38:59.965 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:38:59.965 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+07:38:59.967 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:38:59.974 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 6 ms.
+07:38:59.975 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:38:59.975 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+07:38:59.976 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:38:59.976 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+07:38:59.977 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:38:59.977 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+07:38:59.980 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:38:59.981 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+07:38:59.981 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:38:59.982 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+07:38:59.985 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:38:59.985 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+07:38:59.985 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:38:59.985 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+07:38:59.992 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 6 ms.
+07:39:00.002 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+07:39:00.004 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:39:00.005 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+07:39:00.005 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+07:39:00.005 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+07:39:00.017 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\AppData\Local\Temp\testng-eclipse--1269530011\testng-customsuite.xml
+
+07:39:00.040 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+07:39:00.140 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+07:39:00.141 [main] WARN  testBase.BaseClass.tearDown(BaseClass.java:153)oggger - Driver is null in tearDown for thread: 1. Could not quit browser.
+07:39:00.141 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+07:39:00.296 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.jq.Main@20a14b55: 104 ms
+07:39:00.324 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.FailedReporter@4044fb95: 28 ms
+07:39:00.349 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.XMLReporter@29df4d43: 24 ms
+07:39:00.363 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@52045dbe: 14 ms
+07:39:00.375 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@62163b39: 9 ms
+07:39:00.375 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.internal.ExitCodeListener@20a8a64e: 0 ms
+07:39:10.232 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+07:39:10.542 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+07:39:13.186 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+07:39:17.352 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+07:39:17.392 [main] INFO  testCases.TC006_CheckoutProduct.verify_AddToCart(TC006_CheckoutProduct.java:20)oggger - ****** Starting Add to cart Validation Test ******
+07:39:23.301 [main] INFO  testCases.TC006_CheckoutProduct.verify_AddToCart(TC006_CheckoutProduct.java:40)oggger - ******* Adding product to cart *******
+07:39:23.785 [main] INFO  testCases.TC006_CheckoutProduct.verify_AddToCart(TC006_CheckoutProduct.java:42)oggger - ******* Opening Product page *******
+07:39:27.442 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:63)oggger - ******** Starting checkout validation *******
+07:39:31.548 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+07:39:31.898 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+07:39:31.898 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+07:39:31.898 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+10:34:14.981 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Order.xml"
+10:34:15.327 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Order.xml
+
+10:34:22.775 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+10:34:27.512 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+10:34:27.586 [main] INFO  testCases.TC005_AddToCart.verify_AddToCart(TC005_AddToCart.java:56)oggger - ****** Starting Add to cart Validation Test ******
+10:34:34.069 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:34)oggger - ******* Adding product to cart *******
+10:34:34.535 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:37)oggger - ******* Opening Product page *******
+10:34:39.145 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+10:34:39.551 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+10:34:39.555 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+10:34:39.555 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+12:15:34.149 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+12:15:34.415 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+12:15:41.185 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+12:15:45.314 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+12:15:45.348 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:21)oggger - ******** Starting checkout validation *******
+12:15:53.473 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+12:15:53.986 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+12:16:04.970 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+12:16:05.324 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+12:16:05.324 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+12:16:05.330 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+12:18:46.195 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\AppData\Local\Temp\testng-eclipse-434764847\testng-customsuite.xml"
+12:18:46.442 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+12:18:46.445 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+12:18:46.447 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:18:46.447 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:18:46.448 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:18:46.448 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:18:46.449 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:18:46.449 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:18:46.453 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:18:46.461 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+12:18:46.462 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:18:46.463 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:18:46.464 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:18:46.464 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:18:46.464 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:18:46.464 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:18:46.469 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:18:46.470 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:18:46.470 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:18:46.471 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:18:46.474 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:18:46.474 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:18:46.474 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:18:46.474 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:18:46.483 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 7 ms.
+12:18:46.483 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:18:46.488 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:18:46.489 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:18:46.489 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:18:46.489 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:18:46.506 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\AppData\Local\Temp\testng-eclipse-434764847\testng-customsuite.xml
+
+12:18:46.530 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+12:18:46.610 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+12:18:46.610 [main] WARN  testBase.BaseClass.tearDown(BaseClass.java:153)oggger - Driver is null in tearDown for thread: 1. Could not quit browser.
+12:18:46.610 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+12:18:46.758 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.jq.Main@1522d8a0: 83 ms
+12:18:46.774 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.FailedReporter@3eeb318f: 16 ms
+12:18:46.789 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.XMLReporter@7516e4e5: 14 ms
+12:18:46.802 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@aa549e5: 13 ms
+12:18:46.811 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@7b8233cd: 9 ms
+12:18:46.812 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.internal.ExitCodeListener@4b20ca2b: 0 ms
+12:19:11.750 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+12:19:12.045 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+12:19:13.845 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+12:19:19.871 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+12:19:19.935 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:21)oggger - ******** Starting checkout validation *******
+12:19:30.920 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+12:19:31.473 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+12:19:41.696 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+12:19:42.059 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+12:19:42.059 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+12:19:42.059 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+12:24:50.242 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\AppData\Local\Temp\testng-eclipse-12183028\testng-customsuite.xml"
+12:24:50.569 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:24:50.572 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+12:24:50.573 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:24:50.574 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:24:50.574 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:24:50.575 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:24:50.576 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:24:50.576 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:24:50.580 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:24:50.591 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 10 ms.
+12:24:50.595 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:24:50.596 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:24:50.598 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:24:50.598 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:24:50.599 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:24:50.599 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:24:50.602 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:24:50.603 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:24:50.603 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:24:50.604 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:24:50.608 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:24:50.608 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:24:50.609 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:24:50.609 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:24:50.616 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+12:24:50.617 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:24:50.618 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:24:50.618 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:24:50.619 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:24:50.619 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:24:50.625 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\AppData\Local\Temp\testng-eclipse-12183028\testng-customsuite.xml
+
+12:24:50.648 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+12:24:50.724 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+12:24:50.724 [main] WARN  testBase.BaseClass.tearDown(BaseClass.java:153)oggger - Driver is null in tearDown for thread: 1. Could not quit browser.
+12:24:50.724 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+12:24:50.858 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.jq.Main@1522d8a0: 82 ms
+12:24:50.879 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.FailedReporter@3eeb318f: 20 ms
+12:24:50.897 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.XMLReporter@7516e4e5: 18 ms
+12:24:50.913 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@aa549e5: 15 ms
+12:24:50.923 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@7b8233cd: 10 ms
+12:24:50.924 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.internal.ExitCodeListener@4b20ca2b: 0 ms
+12:25:38.194 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+12:25:38.485 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+12:25:40.260 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+12:25:45.074 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+12:25:45.140 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:21)oggger - ******** Starting checkout validation *******
+12:25:51.867 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+12:25:52.328 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+12:25:59.916 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+12:26:00.261 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+12:26:00.262 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+12:26:00.264 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+12:27:41.961 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+12:27:42.248 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+12:27:43.985 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+12:27:50.242 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+12:27:50.299 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:21)oggger - ******** Starting checkout validation *******
+12:28:04.485 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+12:28:05.049 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+12:28:22.288 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+12:28:22.594 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+12:28:22.594 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+12:28:22.594 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+12:30:52.139 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+12:30:52.461 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+12:30:54.279 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+12:30:59.734 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+12:30:59.797 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:21)oggger - ******** Starting checkout validation *******
+12:31:08.534 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+12:31:09.133 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+12:31:17.581 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+12:31:17.884 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+12:31:17.884 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+12:31:17.884 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+12:33:36.292 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+12:33:36.543 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+12:33:38.246 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+12:33:43.497 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+12:33:43.568 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:21)oggger - ******** Starting checkout validation *******
+12:33:49.551 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+12:33:49.995 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+12:33:58.168 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+12:33:58.530 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+12:33:58.530 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+12:33:58.530 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+12:42:02.090 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+12:42:02.417 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+12:42:04.152 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+12:42:09.685 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+12:42:09.768 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:21)oggger - ******** Starting checkout validation *******
+12:42:20.977 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+12:42:21.504 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+12:42:31.383 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+12:42:31.748 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+12:42:31.748 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+12:42:31.748 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+12:44:17.040 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+12:44:17.301 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+12:44:18.914 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+12:44:23.273 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+12:44:23.311 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:21)oggger - ******** Starting checkout validation *******
+12:44:30.851 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+12:44:31.329 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+12:44:39.818 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+12:44:40.120 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+12:44:40.120 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+12:44:40.120 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+21:12:59.646 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+21:13:00.006 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+21:13:04.513 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+21:13:08.312 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+21:13:08.347 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:23)oggger - ******** Starting checkout validation *******
+21:13:14.877 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+21:13:15.330 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+21:13:23.829 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+21:13:24.211 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+21:13:24.211 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+21:13:24.211 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+21:17:47.551 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+21:17:47.818 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+21:17:49.416 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+21:17:53.554 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+21:17:53.577 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:23)oggger - ******** Starting checkout validation *******
+21:17:59.719 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+21:18:00.145 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+21:18:09.552 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:44)oggger - ********** Closed Return Policy ***********
+21:18:10.222 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:46)oggger - ********** Clicking Confirm order Button ***********
+21:18:10.510 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+21:18:10.823 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+21:18:10.823 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+21:18:10.823 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+21:20:32.063 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+21:20:32.351 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+21:20:34.205 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+21:20:38.871 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+21:20:38.903 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:23)oggger - ******** Starting checkout validation *******
+21:20:47.965 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+21:20:48.422 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+21:20:57.657 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:44)oggger - ********** Closed Return Policy ***********
+21:20:58.338 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:46)oggger - ********** Clicking Confirm order Button ***********
+21:20:58.537 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:49)oggger - ********** Navigated to order success page ***********
+21:21:16.104 [main] ERROR testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:56)oggger - Exception during checkoutProduct validation: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='contentpanel']//section//p[2]"}
+  (Session info: chrome=138.0.7204.169)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5dcd3236ecc1bd7f4255f0d20c88cb0d, findElement {value=//div[@class='contentpanel']//section//p[2], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59745}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59745/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5dcd3236ecc1bd7f4255f0d20c88cb0d
+21:21:16.371 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+21:21:16.817 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+21:21:16.817 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+21:21:16.817 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+23:02:50.777 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+23:02:51.192 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+23:02:55.640 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+23:02:59.269 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+23:02:59.301 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:23)oggger - ******** Starting checkout validation *******
+23:03:06.621 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+23:03:07.043 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+23:03:15.261 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:44)oggger - ********** Closed Return Policy ***********
+23:03:15.948 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:46)oggger - ********** Clicking Confirm order Button ***********
+23:03:16.093 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:49)oggger - ********** Navigated to order success page ***********
+23:03:33.083 [main] ERROR testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:56)oggger - Exception during checkoutProduct validation: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='contentpanel']//section//p[2]"}
+  (Session info: chrome=138.0.7204.169)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3628eac30f7396718cf1a59b633c1559, findElement {value=//div[@class='contentpanel']//section//p[2], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53739}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53739/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3628eac30f7396718cf1a59b633c1559
+23:03:33.357 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+23:03:33.733 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+23:03:33.733 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+23:03:33.735 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+23:25:14.106 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+23:25:14.400 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+23:25:16.349 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+23:25:21.874 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+23:25:21.940 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:23)oggger - ******** Starting checkout validation *******
+23:25:29.085 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+23:25:30.235 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+23:25:38.390 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:44)oggger - ********** Closed Return Policy ***********
+23:25:39.071 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:46)oggger - ********** Clicking Confirm order Button ***********
+23:25:39.251 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:49)oggger - ********** Navigated to order success page ***********
+23:25:53.705 [main] ERROR testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:56)oggger - Exception during checkoutProduct validation: no such element: Unable to locate element: {"method":"xpath","selector":"//body[1]/div[1]/div[2]/div[1]/div[1]/div[1]//section//p[2]"}
+  (Session info: chrome=138.0.7204.169)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [627f2269a1f3fd02b1109ebecc57be38, findElement {value=//body[1]/div[1]/div[2]/div[1]/div[1]/div[1]//section//p[2], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54482}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54482/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 627f2269a1f3fd02b1109ebecc57be38
+23:25:53.969 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+23:25:54.433 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+23:25:54.433 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+23:25:54.433 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+23:35:21.681 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+23:35:21.960 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+23:35:23.636 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+23:35:28.206 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+23:35:28.232 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:23)oggger - ******** Starting checkout validation *******
+23:35:35.953 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+23:35:36.389 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+23:35:43.625 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:44)oggger - ********** Closed Return Policy ***********
+23:35:44.274 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:46)oggger - ********** Clicking Confirm order Button ***********
+23:35:44.478 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:49)oggger - ********** Navigated to order success page ***********
+23:35:48.087 [main] ERROR testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:57)oggger - Exception during checkoutProduct validation: Unclosed character class near index 6
+[^[0-9]
+      ^
+23:35:48.301 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+23:35:50.265 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+23:35:50.265 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+23:35:50.265 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+23:37:46.460 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+23:37:46.760 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+23:37:48.665 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+23:37:55.291 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+23:37:55.352 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:23)oggger - ******** Starting checkout validation *******
+23:38:01.717 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+23:38:02.171 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+23:38:11.755 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:44)oggger - ********** Closed Return Policy ***********
+23:38:12.399 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:46)oggger - ********** Clicking Confirm order Button ***********
+23:38:12.573 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:49)oggger - ********** Navigated to order success page ***********
+23:38:19.650 [main] ERROR testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:57)oggger - Exception during checkoutProduct validation: Unclosed character class near index 6
+[^[0-9]
+      ^
+23:38:19.893 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+23:38:20.347 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+23:38:20.347 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+23:38:20.347 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+23:40:30.007 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+23:40:30.263 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+23:40:32.081 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+23:40:38.448 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+23:40:38.514 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:23)oggger - ******** Starting checkout validation *******
+23:40:46.516 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+23:40:47.109 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+23:40:54.153 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:44)oggger - ********** Closed Return Policy ***********
+23:40:54.827 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:46)oggger - ********** Clicking Confirm order Button ***********
+23:40:54.993 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:49)oggger - ********** Navigated to order success page ***********
+23:41:00.823 [main] ERROR testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:57)oggger - Exception during checkoutProduct validation: Unclosed character class near index 6
+[^[0-9]
+      ^
+23:41:01.108 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+23:41:01.560 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+23:41:01.560 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+23:41:01.560 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+23:44:00.079 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+23:44:00.349 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+23:44:02.240 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+23:44:06.997 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+23:44:07.047 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:23)oggger - ******** Starting checkout validation *******
+23:44:12.926 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+23:44:13.484 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+23:44:19.967 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:44)oggger - ********** Closed Return Policy ***********
+23:44:20.609 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:46)oggger - ********** Clicking Confirm order Button ***********
+23:44:20.777 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:49)oggger - ********** Navigated to order success page ***********
+23:44:26.181 [main] ERROR testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:57)oggger - Exception during checkoutProduct validation: Unclosed character class near index 6
+[^[0-9]
+      ^
+23:44:26.436 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+23:44:26.835 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+23:44:26.835 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+23:44:26.835 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+23:49:50.633 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+23:49:50.885 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+23:49:52.634 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+23:49:57.338 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+23:49:57.367 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:23)oggger - ******** Starting checkout validation *******
+23:50:03.676 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+23:50:04.189 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+23:50:11.661 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:44)oggger - ********** Closed Return Policy ***********
+23:50:12.336 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:46)oggger - ********** Clicking Confirm order Button ***********
+23:50:12.478 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:49)oggger - ********** Navigated to order success page ***********
+23:50:18.957 [main] ERROR testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:57)oggger - Exception during checkoutProduct validation: Unclosed character class near index 6
+[^[0-9]
+      ^
+23:50:19.207 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+23:50:19.633 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+23:50:19.633 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+23:50:19.633 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+23:54:08.879 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+23:54:09.126 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+23:54:10.749 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+23:54:21.051 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+23:54:21.115 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:23)oggger - ******** Starting checkout validation *******
+23:54:29.108 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+23:54:29.542 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+23:54:37.528 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:44)oggger - ********** Closed Return Policy ***********
+23:54:38.173 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:46)oggger - ********** Clicking Confirm order Button ***********
+23:54:38.353 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:49)oggger - ********** Navigated to order success page ***********
+23:54:44.076 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+23:54:44.434 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+23:54:44.434 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+23:54:44.434 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+10:56:32.410 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+10:56:32.692 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+10:56:43.567 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+10:56:52.731 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+10:56:52.804 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:23)oggger - ******** Starting checkout validation *******
+10:57:02.697 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+10:57:03.159 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+10:57:15.556 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:44)oggger - ********** Closed Return Policy ***********
+10:57:16.210 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:46)oggger - ********** Clicking Confirm order Button ***********
+10:57:16.388 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:49)oggger - ********** Navigated to order success page ***********
+10:57:25.573 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+10:57:25.953 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+10:57:25.953 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+10:57:25.953 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+22:54:31.027 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+22:54:31.469 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+22:54:35.907 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+22:54:40.392 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+22:54:40.426 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:23)oggger - ******** Starting checkout validation *******
+22:54:47.377 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+22:54:47.822 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+22:55:00.961 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:44)oggger - ********** Closed Return Policy ***********
+22:55:01.622 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:46)oggger - ********** Clicking Confirm order Button ***********
+22:55:01.786 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:49)oggger - ********** Navigated to order success page ***********
+22:55:09.231 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+22:55:09.670 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+22:55:09.670 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+22:55:09.670 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+23:01:20.119 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+23:01:20.376 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+23:01:21.984 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+23:01:29.031 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+23:01:29.091 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:23)oggger - ******** Starting checkout validation *******
+23:01:41.934 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+23:01:43.161 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+23:01:56.799 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:44)oggger - ********** Closed Return Policy ***********
+23:01:57.461 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:46)oggger - ********** Clicking Confirm order Button ***********
+23:01:57.639 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:49)oggger - ********** Navigated to order success page ***********
+23:02:03.658 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+23:02:04.078 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+23:02:04.078 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+23:02:04.078 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+23:17:25.536 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+23:17:25.824 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+23:17:27.731 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+23:17:32.742 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+23:17:32.803 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:23)oggger - ******** Starting checkout validation *******
+23:17:38.598 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+23:17:39.033 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+23:17:46.915 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:44)oggger - ********** Closed Return Policy ***********
+23:17:47.609 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:46)oggger - ********** Clicking Confirm order Button ***********
+23:17:47.765 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:49)oggger - ********** Navigated to order success page ***********
+23:17:54.302 [main] ERROR testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:59)oggger - Exception during checkoutProduct validation: invalid selector: The result of the xpath expression "//td/b[text()='Order ID']/following-sibling::text()[1]" is: [object Text]. It should be an element.
+  (Session info: chrome=138.0.7204.169)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5ddbea9660300428a0b93a76c3418e0f, findElement {using=xpath, value=//td/b[text()='Order ID']/following-sibling::text()[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57603}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57603/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ddbea9660300428a0b93a76c3418e0f
+23:17:54.546 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+23:17:54.942 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+23:17:54.942 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+23:17:54.942 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+23:48:08.789 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+23:48:09.065 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+23:48:11.152 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+23:48:14.941 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+23:48:14.987 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:23)oggger - ******** Starting checkout validation *******
+23:48:24.785 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+23:48:25.269 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+23:48:34.753 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:44)oggger - ********** Closed Return Policy ***********
+23:48:35.424 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:46)oggger - ********** Clicking Confirm order Button ***********
+23:48:35.579 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:49)oggger - ********** Navigated to order success page ***********
+23:48:42.447 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+23:48:42.856 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+23:48:42.856 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+23:48:42.866 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+23:52:43.593 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+23:52:43.857 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+23:52:45.612 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+23:52:49.721 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+23:52:49.747 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:23)oggger - ******** Starting checkout validation *******
+23:52:55.738 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+23:52:56.244 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+23:53:05.371 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:44)oggger - ********** Closed Return Policy ***********
+23:53:06.026 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:46)oggger - ********** Clicking Confirm order Button ***********
+23:53:06.180 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:49)oggger - ********** Navigated to order success page ***********
+23:53:13.181 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+23:53:13.605 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+23:53:13.605 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+23:53:13.605 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+00:17:11.575 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+00:17:11.872 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+00:17:15.234 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+00:17:20.850 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+00:17:20.915 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:26)oggger - ******** Starting checkout validation *******
+00:17:29.664 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+00:17:30.128 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+00:17:40.922 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:47)oggger - ********** Closed Return Policy ***********
+00:17:41.564 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:49)oggger - ********** Clicking Confirm order Button ***********
+00:17:41.749 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:52)oggger - ********** Navigated to order success page ***********
+00:17:55.573 [main] ERROR testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:94)oggger - Exception during checkoutProduct validation: Invalid key code
+00:17:55.864 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+00:17:56.339 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+00:17:56.339 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+00:17:56.339 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+00:46:50.684 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+00:46:50.993 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+00:46:53.319 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+00:46:58.093 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+00:46:58.171 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:63)oggger - ******** Starting checkout validation *******
+00:47:04.884 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+00:47:06.250 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+00:47:16.153 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:84)oggger - ********** Closed Return Policy ***********
+00:47:16.820 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:86)oggger - ********** Clicking Confirm order Button ***********
+00:47:16.994 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:89)oggger - ********** Navigated to order success page ***********
+00:47:27.191 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+00:47:27.690 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+00:47:27.690 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+00:47:27.690 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+00:51:55.152 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+00:51:55.409 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+00:51:57.197 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+00:52:02.562 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+00:52:02.631 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:64)oggger - ******** Starting checkout validation *******
+00:52:08.820 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+00:52:09.271 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+00:52:20.681 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:85)oggger - ********** Closed Return Policy ***********
+00:52:21.305 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:87)oggger - ********** Clicking Confirm order Button ***********
+00:52:21.471 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:90)oggger - ********** Navigated to order success page ***********
+00:52:32.589 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+00:52:33.002 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+00:52:33.002 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+00:52:33.002 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+00:59:27.459 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+00:59:27.717 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+00:59:29.390 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+00:59:33.133 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+00:59:33.154 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:65)oggger - ******** Starting checkout validation *******
+00:59:39.147 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+00:59:39.578 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+00:59:49.053 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:86)oggger - ********** Closed Return Policy ***********
+00:59:49.687 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:88)oggger - ********** Clicking Confirm order Button ***********
+00:59:49.888 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:91)oggger - ********** Navigated to order success page ***********
+00:59:58.234 [main] INFO  testCases.TC006_CheckoutProduct.savePDFInvoice(TC006_CheckoutProduct.java:37)oggger - Saving invoice to: D:\Invoices\Order_59741.pdf
+00:59:58.967 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+00:59:59.350 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+00:59:59.350 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+00:59:59.350 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+01:05:42.198 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+01:05:42.481 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+01:05:44.115 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+01:05:52.991 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+01:05:53.056 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:66)oggger - ******** Starting checkout validation *******
+01:06:00.678 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+01:06:01.138 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+01:06:15.237 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:87)oggger - ********** Closed Return Policy ***********
+01:06:15.876 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:89)oggger - ********** Clicking Confirm order Button ***********
+01:06:16.064 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:92)oggger - ********** Navigated to order success page ***********
+01:06:26.191 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+01:06:26.586 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+01:06:26.586 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+01:06:26.586 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+10:53:05.349 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+10:53:05.805 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+10:53:10.303 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+10:53:13.965 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+10:53:13.998 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:70)oggger - ******** Starting checkout validation *******
+10:53:22.166 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+10:53:22.603 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+10:53:33.616 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:91)oggger - ********** Closed Return Policy ***********
+10:53:34.316 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:93)oggger - ********** Clicking Confirm order Button ***********
+10:53:34.485 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:96)oggger - ********** Navigated to order success page ***********
+10:53:43.802 [main] INFO  testCases.TC006_CheckoutProduct.savePDFInvoice(TC006_CheckoutProduct.java:41)oggger - ****** Pressed Print Button ********
+10:53:44.403 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:107)oggger - ****** File saved !!! ********
+10:53:44.433 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+10:53:44.983 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+10:53:44.983 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+10:53:44.983 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+11:00:53.815 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+11:00:54.074 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+11:00:55.733 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+11:01:01.844 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+11:01:01.914 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:75)oggger - ******** Starting checkout validation *******
+11:01:10.095 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+11:01:11.046 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+11:01:19.447 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:96)oggger - ********** Closed Return Policy ***********
+11:01:20.088 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:98)oggger - ********** Clicking Confirm order Button ***********
+11:01:20.251 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:101)oggger - ********** Navigated to order success page ***********
+11:01:29.582 [main] INFO  testCases.TC006_CheckoutProduct.savePDFInvoice(TC006_CheckoutProduct.java:46)oggger - ****** Pressed Print Button ********
+11:01:32.595 [main] INFO  testCases.TC006_CheckoutProduct.savePDFInvoice(TC006_CheckoutProduct.java:51)oggger - Setting file path to clipboard: D:\Invoices\Order_59763.pdf
+11:01:32.642 [main] INFO  testCases.TC006_CheckoutProduct.savePDFInvoice(TC006_CheckoutProduct.java:53)oggger - Pasting path and pressing Enter
+11:01:34.666 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:112)oggger - ****** File saved !!! ********
+11:01:34.688 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+11:01:35.189 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+11:01:35.189 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+11:01:35.189 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+11:11:28.145 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml"
+11:11:28.406 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\Checkout.xml
+
+11:11:30.178 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+11:11:34.419 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+11:11:34.450 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:81)oggger - ******** Starting checkout validation *******
+11:11:41.183 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:33)oggger - ******* Adding product to cart *******
+11:11:41.605 [main] INFO  testCases.TC005_AddToCart.addProductToCart(TC005_AddToCart.java:36)oggger - ******* Opening Product page *******
+11:11:48.467 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:102)oggger - ********** Closed Return Policy ***********
+11:11:49.106 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:104)oggger - ********** Clicking Confirm order Button ***********
+11:11:49.261 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:107)oggger - ********** Navigated to order success page ***********
+11:11:59.579 [main] INFO  testCases.TC006_CheckoutProduct.savePDFInvoice(TC006_CheckoutProduct.java:46)oggger - ****** Pressed Print Button ********
+11:12:02.585 [main] INFO  testCases.TC006_CheckoutProduct.savePDFInvoice(TC006_CheckoutProduct.java:51)oggger - Setting file path to clipboard: D:\Invoices\Order_59767.pdf
+11:12:02.640 [main] INFO  testCases.TC006_CheckoutProduct.savePDFInvoice(TC006_CheckoutProduct.java:53)oggger - Pasting path and pressing Enter
+11:12:05.656 [main] INFO  testCases.TC006_CheckoutProduct.savePDFInvoice(TC006_CheckoutProduct.java:71)oggger - File saved to: D:\Invoices\Order_59767.pdf
+11:12:05.659 [main] INFO  testCases.TC006_CheckoutProduct.test_checkoutProd(TC006_CheckoutProduct.java:118)oggger - ****** File saved !!! ********
+11:12:05.674 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+11:12:06.092 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+11:12:06.092 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+11:12:06.092 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+22:31:17.647 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\OrderChecks.xml"
+22:31:17.941 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\OrderChecks.xml
+
+22:32:08.315 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\OrderChecks.xml"
+22:32:08.562 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\OrderChecks.xml
+
+22:32:12.939 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+22:32:18.221 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+22:32:24.187 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+22:32:24.539 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+22:32:24.539 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+22:32:24.544 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+22:33:46.402 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\AppData\Local\Temp\testng-eclipse--1257506999\testng-customsuite.xml"
+22:33:46.618 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:33:46.621 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+22:33:46.623 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:33:46.623 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:33:46.624 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:33:46.624 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:33:46.625 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:33:46.625 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:33:46.627 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+22:33:46.634 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
+22:33:46.635 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:33:46.636 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:33:46.637 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:33:46.637 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:33:46.637 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:33:46.637 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:33:46.639 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:33:46.639 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:33:46.640 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:33:46.640 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:33:46.643 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:33:46.643 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:33:46.643 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:33:46.643 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:33:46.648 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+22:33:46.648 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:33:46.650 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+22:33:46.650 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:33:46.650 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+22:33:46.650 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+22:33:46.656 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\AppData\Local\Temp\testng-eclipse--1257506999\testng-customsuite.xml
+
+22:33:46.677 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+22:33:46.750 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+22:33:46.751 [main] WARN  testBase.BaseClass.tearDown(BaseClass.java:153)oggger - Driver is null in tearDown for thread: 1. Could not quit browser.
+22:33:46.751 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+22:33:46.884 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.jq.Main@1522d8a0: 82 ms
+22:33:46.908 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.FailedReporter@3eeb318f: 24 ms
+22:33:46.923 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.XMLReporter@7516e4e5: 15 ms
+22:33:46.935 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@aa549e5: 10 ms
+22:33:46.945 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@4b20ca2b: 9 ms
+22:33:46.945 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.internal.ExitCodeListener@1cbf6e72: 0 ms
+22:33:59.514 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\OrderChecks.xml"
+22:33:59.765 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\OrderChecks.xml
+
+22:34:01.417 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+22:34:07.444 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+22:34:15.376 [main] INFO  testCases.TC007_RetreiveOrderCount.test_OrderCount(TC007_RetreiveOrderCount.java:30)oggger - ******** Page Footer *******Per Page   
+   
+10
+   20
+   30
+   40
+   50
+     1 - 20 of 32
+22:34:15.397 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+22:34:15.690 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+22:34:15.690 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+22:34:15.690 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+22:48:16.431 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\OrderChecks.xml"
+22:48:16.735 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\OrderChecks.xml
+
+22:48:18.840 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+22:48:23.827 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+22:48:30.190 [main] ERROR testCases.TC007_RetreiveOrderCount.test_OrderCount(TC007_RetreiveOrderCount.java:36)oggger - Exception during Order Count Retreival: invalid selector: The result of the xpath expression "//select[@id='limit']/following-sibling::text()[normalize-space()]" is: [object Text]. It should be an element.
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7cab0c03fd93b179a3c3a4ec943fa96, findElement {value=//select[@id='limit']/following-sibling::text()[normalize-space()], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63565}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63565/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f7cab0c03fd93b179a3c3a4ec943fa96
+22:48:30.441 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+22:48:30.807 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+22:48:30.819 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+22:48:30.819 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+23:05:39.822 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\OrderChecks.xml"
+23:05:40.074 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\OrderChecks.xml
+
+23:05:41.771 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+23:05:45.984 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+23:05:54.478 [main] INFO  testCases.TC007_RetreiveOrderCount.test_OrderCount(TC007_RetreiveOrderCount.java:30)oggger - ******** Page Footer *******32
+23:05:54.501 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+23:05:54.823 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+23:05:54.823 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+23:05:54.823 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+23:09:36.084 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\OrderChecks.xml"
+23:09:36.342 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\OrderChecks.xml
+
+23:09:38.051 [main] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+23:09:42.392 [main] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+23:09:51.710 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...1
+23:09:52.036 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 1
+23:09:52.036 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 1
+23:09:52.036 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 1
+11:09:47.395 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\OrderChecks.xml"
+11:09:47.868 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\OrderChecks.xml
+
+11:09:52.554 [TestNG-test-Parallel Order Count Verification-2] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+11:09:54.471 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.setup(BaseClass.java:109)oggger - Local WebDriver initialized for chrome
+11:09:56.110 [TestNG-test-Parallel Order Count Verification-2] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+11:09:58.281 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.setup(BaseClass.java:125)oggger - Application launched: A place to practice your automation skills! on chrome
+11:10:02.340 [TestNG-test-Parallel Order Count Verification-2] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...34
+11:10:02.722 [TestNG-test-Parallel Order Count Verification-2] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 34
+11:10:02.727 [TestNG-test-Parallel Order Count Verification-2] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 34
+11:10:02.727 [TestNG-test-Parallel Order Count Verification-2] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 34
+11:10:03.850 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:146)oggger - Attempting to enter tearDown method...33
+11:10:04.117 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:157)oggger - Browser closed successfully by AfterClass for thread: 33
+11:10:04.117 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:163)oggger - Removed driver from ThreadLocal for thread: 33
+11:10:04.117 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Exiting tearDown method (AfterClass) for thread: 33
+18:22:14.491 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\src\test\java\WishListCount.xml"
+18:22:14.832 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\src\test\java\WishListCount.xml
+
+18:22:19.546 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+18:22:23.914 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+18:22:45.612 [main] ERROR testCases.TC009_WishlistBadgeCount.test_WishlistCountVerification_Badge_Page(TC009_WishlistBadgeCount.java:47)oggger - Exception during wishlist count verification: element not interactable
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d35dee62deb0922c093bfba20b732793, clickElement {id=f.A040152B2A2AA7DEFD2D21E1CAD6E5B8.d.293E7E8AD679DDE3B400476E6ADC214F.e.200}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51767}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51767/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d35dee62deb0922c093bfba20b732793)] -> xpath: //a[@class='wishlist_add btn btn-large']]
+Session ID: d35dee62deb0922c093bfba20b732793
+18:22:45.891 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+18:22:46.352 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+18:22:46.354 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+18:22:46.354 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+18:23:21.733 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\src\test\java\WishListCount.xml"
+18:23:22.001 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\src\test\java\WishListCount.xml
+
+18:23:23.871 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+18:23:29.021 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+18:23:46.568 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+18:23:46.914 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+18:23:46.914 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+18:23:46.914 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+20:05:29.377 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\wishlist.xml"
+20:07:02.902 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\wishlist.xml"
+20:07:25.699 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\wishlist.xml"
+20:07:25.995 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\wishlist.xml
+
+20:07:30.028 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+20:07:33.327 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+20:07:33.372 [main] INFO  testCases.TC004_WishList.verify_Wishlist(TC004_WishList.java:16)oggger - ****** Starting Wishlist links Validation Test ******
+20:07:51.952 [main] ERROR testCases.TC004_WishList.verify_Wishlist(TC004_WishList.java:43)oggger - Exception during wishlist validation: element not interactable
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1da093a6f44ebfa1ff66e0e2d7c5cadb, clickElement {id=f.F96867DF0606F16E0150B9B5D678C601.d.F481E8A7DD2838CCAF3E0E50572B3011.e.218}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65015}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65015/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1da093a6f44ebfa1ff66e0e2d7c5cadb)] -> xpath: //a[@class='wishlist_add btn btn-large']]
+Session ID: 1da093a6f44ebfa1ff66e0e2d7c5cadb
+20:07:52.295 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+20:07:52.754 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+20:07:52.754 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+20:07:52.754 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+20:07:53.864 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+20:07:58.189 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+20:08:13.733 [main] ERROR testCases.TC010_DeleteProduct_From_WishList.verify_deleteFromWishList(TC010_DeleteProduct_From_WishList.java:36)oggger - Exception during Delete Product From Wishlist: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Armani Code Pour Femme']/ancestor::tr//button[contains(@class, 'btn-default')]"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ed96759847619969aa3d95de1b24c2f, findElement {value=//a[text()='Armani Code Pour Femme']/ancestor::tr//button[contains(@class, 'btn-default')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65065}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65065/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ed96759847619969aa3d95de1b24c2f
+20:08:13.909 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+20:08:14.324 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+20:08:14.324 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+20:08:14.324 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+20:11:40.317 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\wishlist.xml"
+20:11:40.596 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\wishlist.xml
+
+20:11:42.224 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+20:11:52.473 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+20:12:10.147 [main] ERROR testCases.TC010_DeleteProduct_From_WishList.verify_deleteFromWishList(TC010_DeleteProduct_From_WishList.java:36)oggger - Exception during Delete Product From Wishlist: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Armani Code Pour Femme']/ancestor::tr//button[contains(@class, 'btn-remove')]"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eaac040cb66c001d4ac302e5837e6ce5, findElement {value=//a[text()='Armani Code Pour Femme']/ancestor::tr//button[contains(@class, 'btn-remove')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65263}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65263/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eaac040cb66c001d4ac302e5837e6ce5
+20:12:10.413 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+20:12:10.799 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+20:12:10.799 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+20:12:10.799 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+20:29:59.301 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\wishlist.xml"
+20:29:59.607 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\wishlist.xml
+
+20:30:01.523 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+20:30:06.057 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+20:30:14.435 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+20:30:14.763 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+20:30:14.767 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+20:30:14.767 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+20:36:39.224 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\wishlist.xml"
+20:36:39.542 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\wishlist.xml
+
+20:36:41.532 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+20:36:47.569 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+20:37:03.398 [main] ERROR testCases.TC010_DeleteProduct_From_WishList.verify_deleteFromWishList(TC010_DeleteProduct_From_WishList.java:36)oggger - Exception during Delete Product From Wishlist: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Armani Code Pour Femme']/parent::td/following-sibling::td[last()]//a[@class='btn btn-sm btn-default btn-remove']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [88493e303018f5da5af21533b962e944, findElement {using=xpath, value=//a[text()='Armani Code Pour Femme']/parent::td/following-sibling::td[last()]//a[@class='btn btn-sm btn-default btn-remove']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49989}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49989/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88493e303018f5da5af21533b962e944
+20:37:03.660 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+20:37:04.113 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+20:37:04.113 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+20:37:04.113 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+20:38:55.435 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\wishlist.xml"
+20:38:55.731 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\wishlist.xml
+
+20:38:57.610 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+20:39:02.928 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+20:39:27.317 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+20:39:27.745 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+20:39:27.745 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+20:39:27.745 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1

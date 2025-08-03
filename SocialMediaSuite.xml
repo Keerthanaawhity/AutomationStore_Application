@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SocialMediaSuite" parallel="classes" thread-count="3">
+
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners> 
+
+  <test name="SocialMediaTests" thread-count="3" parallel="classes">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.SocialMediaLinks.TC001_Facebook"/>
+      <class name="testCases.SocialMediaLinks.TC002_LinkedIn"/>
+      <class name="testCases.SocialMediaLinks.TC003_Twitter"/>
+    </classes>
+  </test>
+</suite>
