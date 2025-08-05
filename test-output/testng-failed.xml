@@ -8,13 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC010_DeleteProduct_From_WishList">
+      <class name="testCases.TC009_WishlistBadgeCount">
         <methods>
           <include name="tearDown"/>
-          <include name="verify_deleteFromWishList"/>
+          <include name="test_WishlistCountVerification_Badge_Page"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC010_DeleteProduct_From_WishList -->
+      </class> <!-- testCases.TC009_WishlistBadgeCount -->
     </classes>
   </test> <!-- Wishlist Tests(failed) -->
 </suite> <!-- Failed suite [Wishlist] -->

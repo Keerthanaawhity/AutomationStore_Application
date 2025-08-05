@@ -14,6 +14,7 @@ public class ProductBasePage extends Basepage{
 	}
 
 	@FindBy(xpath="//a[@class='wishlist_add btn btn-large']") WebElement Wishlist;
+	@FindBy(xpath="//a[@class='cart']") WebElement AddtoCartItemBtn;
 	@FindBy(xpath="//li[span[@class='productinfoleft' and contains(text(),'Model:')]]") WebElement ProdModelName;
 	
 	
@@ -30,6 +31,11 @@ public class ProductBasePage extends Basepage{
     public void WishlistItem()
     {
     	Wishlist.click();
+    }
+    
+    public void AddToCartItem()
+    {
+    	AddtoCartItemBtn.click();
     }
     
     public String getProdModelName()

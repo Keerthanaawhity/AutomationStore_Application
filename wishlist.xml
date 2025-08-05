@@ -9,8 +9,10 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <!-- <class name="testCases.TC004_WishList"/> -->
-      <class name = "testCases.TC010_DeleteProduct_From_WishList"/>
+     	<!-- <class name="testCases.TC004_WishList"/> -->
+     	<class name="testCases.TC009_WishlistBadgeCount"/>
+     	<class name = "testCases.TC010_DeleteProduct_From_WishList"/>
+      	<class name = "testCases.TC011_AddToCartFromWishlist"/>
     </classes>
   </test>
 </suite>

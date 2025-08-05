@@ -70,7 +70,7 @@ public class WishListPage extends Basepage{
 		}
 		
 		public void clickAddToCartByProductNameinWishList(String productName) {
-		    String xpath = String.format("//a[text()='%s']/parent::td/following-sibling::td[last()]//a[@class='btn btn-sm btn-default btn-primary']", productName);
+		    String xpath = String.format("//a[text()='%s']/parent::td/following-sibling::td[last()]/a[@class='btn btn-sm btn-primary']", productName);
 		    driver.findElement(By.xpath(xpath)).click();
 		}
 

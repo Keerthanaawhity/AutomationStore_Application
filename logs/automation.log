@@ -1236,3 +1236,125 @@ Session ID: 88493e303018f5da5af21533b962e944
 20:39:27.745 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
 20:39:27.745 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
 20:39:27.745 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+23:56:06.293 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\wishlist.xml"
+23:57:51.726 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\wishlist.xml"
+23:59:18.595 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\wishlist.xml"
+23:59:18.870 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\wishlist.xml
+
+23:59:24.603 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+23:59:28.712 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+23:59:46.090 [main] ERROR testCases.TC011_AddToCartFromWishlist.test_VerifyAddToCartFromWishList(TC011_AddToCartFromWishlist.java:40)oggger - Exception during Delete Product From Wishlist: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Pour Homme Eau de Toilette']/parent::td/following-sibling::td[last()]//a[@class='btn btn-sm btn-default btn-primary']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dd8b1a1e04439f0cb9b569a057ff1426, findElement {using=xpath, value=//a[text()='Pour Homme Eau de Toilette']/parent::td/following-sibling::td[last()]//a[@class='btn btn-sm btn-default btn-primary']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62819}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62819/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dd8b1a1e04439f0cb9b569a057ff1426
+23:59:46.354 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+23:59:46.706 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+23:59:46.706 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+23:59:46.706 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+00:14:27.417 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\wishlist.xml"
+00:14:27.711 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\wishlist.xml
+
+00:14:29.596 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+00:14:34.715 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+00:14:52.865 [main] ERROR testCases.TC011_AddToCartFromWishlist.test_VerifyAddToCartFromWishList(TC011_AddToCartFromWishlist.java:40)oggger - Exception during Delete Product From Wishlist: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Pour Homme Eau de Toilette')]/ancestor::div[contains(@class,'fixed')]//a[@title='Add to Cart']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [78c1edd5f7decbc885bb8c0a63ff9bc9, findElement {using=xpath, value=//a[contains(text(),'Pour Homme Eau de Toilette')]/ancestor::div[contains(@class,'fixed')]//a[@title='Add to Cart']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63270}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63270/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 78c1edd5f7decbc885bb8c0a63ff9bc9
+00:14:53.164 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+00:14:53.552 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+00:14:53.552 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+00:14:53.552 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+00:16:53.184 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\wishlist.xml"
+00:16:53.451 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\wishlist.xml
+
+00:16:55.141 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+00:16:58.926 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+00:17:20.388 [main] ERROR testCases.TC011_AddToCartFromWishlist.test_VerifyAddToCartFromWishList(TC011_AddToCartFromWishlist.java:41)oggger - Exception during Delete Product From Wishlist: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Pour Homme Eau de Toilette')]/ancestor::div[contains(@class,'fixed')]//a[@title='Add to Cart']"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f46c6d247e97a7ca2ed82e0a1c429367, findElement {using=xpath, value=//a[contains(text(),'Pour Homme Eau de Toilette')]/ancestor::div[contains(@class,'fixed')]//a[@title='Add to Cart']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63388/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f46c6d247e97a7ca2ed82e0a1c429367
+00:17:20.687 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+00:17:21.081 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+00:17:21.081 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+00:17:21.081 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+00:23:58.509 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\wishlist.xml"
+00:23:58.799 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\wishlist.xml
+
+00:24:00.610 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+00:24:05.211 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+00:24:19.923 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+00:24:20.357 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+00:24:20.357 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+00:24:20.357 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+00:28:59.787 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\wishlist.xml"
+00:29:00.136 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\wishlist.xml
+
+00:29:02.089 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+00:29:10.084 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+00:29:34.300 [main] ERROR testCases.TC009_WishlistBadgeCount.test_WishlistCountVerification_Badge_Page(TC009_WishlistBadgeCount.java:47)oggger - Exception during wishlist count verification: element not interactable
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a08010f270af03e56e83e1814a82e9db, clickElement {id=f.EA2E5E82EA2DC4FE51DC5DE151EA53D8.d.C30500E9BA022572B5889D2C8F3325AC.e.328}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63849}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63849/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a08010f270af03e56e83e1814a82e9db)] -> xpath: //a[@class='wishlist_add btn btn-large']]
+Session ID: a08010f270af03e56e83e1814a82e9db
+00:29:34.602 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+00:29:35.107 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+00:29:35.107 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+00:29:35.110 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+00:29:36.251 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+00:29:39.745 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+00:30:01.738 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+00:30:02.160 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+00:30:02.163 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+00:30:02.163 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+00:30:03.192 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+00:30:07.166 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+00:30:20.104 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+00:30:20.455 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+00:30:20.455 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+00:30:20.467 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+00:34:18.849 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\wishlist.xml"
+00:34:19.164 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\wishlist.xml
+
+00:34:21.117 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+00:34:27.835 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+00:34:45.381 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+00:34:45.705 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+00:34:45.705 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+00:34:45.708 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+00:34:46.842 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+00:34:51.082 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+00:35:13.094 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+00:35:13.521 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+00:35:13.521 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+00:35:13.521 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+00:35:14.556 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+00:35:19.044 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+00:35:37.233 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+00:35:37.640 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+00:35:37.640 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+00:35:37.640 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
