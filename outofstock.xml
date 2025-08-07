@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Order Count Verification" thread-count="2">
+
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners> 
+
+  <test name="Out Of Stock Verification" thread-count="2">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>	
+      <!--<class name="testCases.TC012_VerifyOutOfStockProduct"/>-->
+      <class name="testCases.TC013_OutOfStockProdToCart"/>
+      <class name="testCases.TC014_OutOfStockAlertinCart"/>
+    </classes>
+  </test>
+</suite>

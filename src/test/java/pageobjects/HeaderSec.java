@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import pageobjects.Menus.FragrancePage;
+import pageobjects.Menus.MakeUpPage;
 
 public class HeaderSec extends Basepage{
 	
@@ -35,7 +36,7 @@ public class HeaderSec extends Basepage{
 	@FindBy(xpath="//ul[@class='nav topcart pull-left']//a[@class='dropdown-toggle']")WebElement CartDrp;
 	@FindBy(xpath="//a[@class='active menu_home']")WebElement HomeIcon;
 	@FindBy(xpath="//a[normalize-space()='Apparel & accessories']")WebElement ApparelsAccessSec;
-	@FindBy(xpath="//a[normalize-space()='Makeup']")WebElement MakeUpSec;
+	@FindBy(xpath="//a[contains(@href,'path=36')]")WebElement MakeUpSec;
 	@FindBy(xpath="//a[normalize-space()='Skincare']")WebElement SkincareSec;
 	@FindBy(xpath="//a[contains(@href,'path=49')]")WebElement FragnanceSec;
 	@FindBy(xpath="//a[normalize-space()='Men']")WebElement MenSec;
@@ -78,13 +79,12 @@ public class HeaderSec extends Basepage{
 
 	
 	//Hover
-	public FragrancePage hoverOnFragrance() {
+	public MakeUpPage hoverOnMakeUp() {
 	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-	    wait.until(ExpectedConditions.visibilityOf(FragnanceSec));
+	    wait.until(ExpectedConditions.visibilityOf(MakeUpSec));
 	    Actions actions = new Actions(driver);
-	    actions.moveToElement(FragnanceSec).perform();
-
-	    return new FragrancePage(driver);
+	    actions.moveToElement(MakeUpSec).perform();
+	    return new MakeUpPage(driver);
 	}
 	
 	public UserOptionsPage HoverUserOptions()
@@ -94,6 +94,15 @@ public class HeaderSec extends Basepage{
 		Actions actions = new Actions(driver);
 	    actions.moveToElement(UserOptions).perform();
 		return new UserOptionsPage(driver);
+	}
+	
+	public FragrancePage hoverOnFragrance() {
+	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	    wait.until(ExpectedConditions.visibilityOf(FragnanceSec));
+	    Actions actions = new Actions(driver);
+	    actions.moveToElement(FragnanceSec).perform();
+
+	    return new FragrancePage(driver);
 	}
 
 }

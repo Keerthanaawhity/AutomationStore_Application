@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-06T00:34:19 IST" name="Wishlist" finished-at="2025-08-06T00:35:37 IST" duration-ms="78259">
+  <suite started-at="2025-08-07T23:44:39 IST" name="Order Count Verification" finished-at="2025-08-07T23:45:22 IST" duration-ms="43168">
     <groups>
     </groups>
-    <test started-at="2025-08-06T00:34:19 IST" name="Wishlist Tests" finished-at="2025-08-06T00:35:37 IST" duration-ms="78259">
-      <class name="testCases.TC010_DeleteProduct_From_WishList">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC010_DeleteProduct_From_WishList@6995bf68]" started-at="2025-08-06T00:34:45 IST" name="setup" finished-at="2025-08-06T00:34:51 IST" duration-ms="5370" status="PASS">
+    <test started-at="2025-08-07T23:44:39 IST" name="Out Of Stock Verification" finished-at="2025-08-07T23:45:22 IST" duration-ms="43168">
+      <class name="testCases.TC014_OutOfStockAlertinCart">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC014_OutOfStockAlertinCart@503ecb24]" started-at="2025-08-07T23:45:07 IST" name="setup" finished-at="2025-08-07T23:45:13 IST" duration-ms="5748" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,17 +23,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_deleteFromWishList()[pri:0, instance:testCases.TC010_DeleteProduct_From_WishList@6995bf68]" started-at="2025-08-06T00:34:51 IST" name="verify_deleteFromWishList" finished-at="2025-08-06T00:35:13 IST" duration-ms="22006" status="PASS">
+        <test-method signature="test_VerifyOutOfStockAlert()[pri:0, instance:testCases.TC014_OutOfStockAlertinCart@503ecb24]" started-at="2025-08-07T23:45:13 IST" name="test_VerifyOutOfStockAlert" finished-at="2025-08-07T23:45:22 IST" duration-ms="8551" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_deleteFromWishList -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC010_DeleteProduct_From_WishList@6995bf68]" started-at="2025-08-06T00:35:13 IST" name="tearDown" finished-at="2025-08-06T00:35:13 IST" duration-ms="427" status="PASS">
+        </test-method> <!-- test_VerifyOutOfStockAlert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC014_OutOfStockAlertinCart@503ecb24]" started-at="2025-08-07T23:45:22 IST" name="tearDown" finished-at="2025-08-07T23:45:22 IST" duration-ms="303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC010_DeleteProduct_From_WishList -->
-      <class name="testCases.TC009_WishlistBadgeCount">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC009_WishlistBadgeCount@289710d9]" started-at="2025-08-06T00:34:19 IST" name="setup" finished-at="2025-08-06T00:34:27 IST" duration-ms="8426" status="PASS">
+      </class> <!-- testCases.TC014_OutOfStockAlertinCart -->
+      <class name="testCases.TC013_OutOfStockProdToCart">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC013_OutOfStockProdToCart@3a0baae5]" started-at="2025-08-07T23:44:39 IST" name="setup" finished-at="2025-08-07T23:44:45 IST" duration-ms="6455" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,41 +49,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_WishlistCountVerification_Badge_Page()[pri:0, instance:testCases.TC009_WishlistBadgeCount@289710d9]" started-at="2025-08-06T00:34:27 IST" name="test_WishlistCountVerification_Badge_Page" finished-at="2025-08-06T00:34:45 IST" duration-ms="17486" status="PASS">
+        <test-method signature="test_VerifyOutOfStockProdToCart()[pri:0, instance:testCases.TC013_OutOfStockProdToCart@3a0baae5]" started-at="2025-08-07T23:44:45 IST" name="test_VerifyOutOfStockProdToCart" finished-at="2025-08-07T23:45:07 IST" duration-ms="21710" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_WishlistCountVerification_Badge_Page -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC009_WishlistBadgeCount@289710d9]" started-at="2025-08-06T00:34:45 IST" name="tearDown" finished-at="2025-08-06T00:34:45 IST" duration-ms="330" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC009_WishlistBadgeCount -->
-      <class name="testCases.TC011_AddToCartFromWishlist">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC011_AddToCartFromWishlist@5143c662]" started-at="2025-08-06T00:35:13 IST" name="setup" finished-at="2025-08-06T00:35:19 IST" duration-ms="5523" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test_VerifyAddToCartFromWishList()[pri:0, instance:testCases.TC011_AddToCartFromWishlist@5143c662]" started-at="2025-08-06T00:35:19 IST" name="test_VerifyAddToCartFromWishList" finished-at="2025-08-06T00:35:37 IST" duration-ms="18181" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_VerifyAddToCartFromWishList -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC011_AddToCartFromWishlist@5143c662]" started-at="2025-08-06T00:35:37 IST" name="tearDown" finished-at="2025-08-06T00:35:37 IST" duration-ms="409" status="PASS">
+        </test-method> <!-- test_VerifyOutOfStockProdToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC013_OutOfStockProdToCart@3a0baae5]" started-at="2025-08-07T23:45:07 IST" name="tearDown" finished-at="2025-08-07T23:45:07 IST" duration-ms="320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC011_AddToCartFromWishlist -->
-    </test> <!-- Wishlist Tests -->
-  </suite> <!-- Wishlist -->
+      </class> <!-- testCases.TC013_OutOfStockProdToCart -->
+    </test> <!-- Out Of Stock Verification -->
+  </suite> <!-- Order Count Verification -->
 </testng-results>

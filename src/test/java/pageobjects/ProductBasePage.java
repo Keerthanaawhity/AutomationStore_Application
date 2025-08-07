@@ -16,7 +16,9 @@ public class ProductBasePage extends Basepage{
 	@FindBy(xpath="//a[@class='wishlist_add btn btn-large']") WebElement Wishlist;
 	@FindBy(xpath="//a[@class='cart']") WebElement AddtoCartItemBtn;
 	@FindBy(xpath="//li[span[@class='productinfoleft' and contains(text(),'Model:')]]") WebElement ProdModelName;
-	
+	@FindBy(xpath="//span[@class='nostock']") WebElement OutOfStockButton;
+	@FindBy(xpath="//div[@class='thumbnails grid row list-inline']//div//div[@class='thumbnail']//div[@class='pricetag jumbotron']//span//ancestor::div[@class='pricetag jumbotron']//ancestor::div[@class='thumbnail']") WebElement OutOfStockProduct;
+
 	
     public void addToCartByProductName(String productName) {
         String xpath = String.format("//a[contains(text(),'%s')]/ancestor::div[contains(@class,'fixed')]//a[@title='Add to Cart']", productName);
@@ -53,5 +55,15 @@ public class ProductBasePage extends Basepage{
             WishlistItem();
         }
     }
+    
+    public String getOutOfStockText()
+    {
+    	return OutOfStockButton.getText().trim();
+    }
+    
+	public void ClickOutOfStockProduct()
+	{
+		OutOfStockProduct.click();
+	}
 
 }

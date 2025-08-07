@@ -1358,3 +1358,145 @@ Session ID: a08010f270af03e56e83e1814a82e9db
 00:35:37.640 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
 00:35:37.640 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
 00:35:37.640 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+23:18:05.692 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\outofstock.xml"
+23:18:06.120 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\outofstock.xml
+
+23:18:10.243 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+23:18:14.066 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+23:18:14.104 [TestNG-test-Parallel Order Count Verification-1] INFO  testCases.TC012_VerifyOutOfStockProduct.test_VerifyOutOfStockinProdPage(TC012_VerifyOutOfStockProduct.java:17)oggger - ****** Starting OutOfStockinProdPage Validation Test ******
+23:18:29.393 [TestNG-test-Parallel Order Count Verification-1] ERROR testCases.TC012_VerifyOutOfStockProduct.test_VerifyOutOfStockinProdPage(TC012_VerifyOutOfStockProduct.java:36)oggger - Exception during OutOfStockInProdPage validation: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (5723b6ebcee4245000e76d1a04a5ed45)] -> xpath: //a[normalize-space()='Makeup']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57747}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57747/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5723b6ebcee4245000e76d1a04a5ed45
+23:18:29.681 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...30
+23:18:30.106 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 30
+23:18:30.106 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 30
+23:18:30.106 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 30
+23:21:38.511 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\outofstock.xml"
+23:21:38.786 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\outofstock.xml
+
+23:21:40.559 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+23:21:44.988 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+23:21:45.019 [TestNG-test-Parallel Order Count Verification-1] INFO  testCases.TC012_VerifyOutOfStockProduct.test_VerifyOutOfStockinProdPage(TC012_VerifyOutOfStockProduct.java:17)oggger - ****** Starting OutOfStockinProdPage Validation Test ******
+23:21:57.601 [TestNG-test-Parallel Order Count Verification-1] ERROR testCases.TC012_VerifyOutOfStockProduct.test_VerifyOutOfStockinProdPage(TC012_VerifyOutOfStockProduct.java:36)oggger - Exception during OutOfStockInProdPage validation: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (4ae1cabec93faa6804eca934e3c0820b)] -> xpath: //a[normalize-space()='Makeup']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57918}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57918/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ae1cabec93faa6804eca934e3c0820b
+23:21:57.883 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...31
+23:21:58.304 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 31
+23:21:58.308 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 31
+23:21:58.308 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 31
+23:31:52.342 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\outofstock.xml"
+23:31:52.667 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\outofstock.xml
+
+23:31:54.996 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+23:32:00.652 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+23:32:00.726 [TestNG-test-Parallel Order Count Verification-1] INFO  testCases.TC012_VerifyOutOfStockProduct.test_VerifyOutOfStockinProdPage(TC012_VerifyOutOfStockProduct.java:17)oggger - ****** Starting OutOfStockinProdPage Validation Test ******
+23:32:08.595 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...30
+23:32:09.018 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 30
+23:32:09.018 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 30
+23:32:09.018 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 30
+23:26:36.928 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\outofstock.xml"
+23:26:37.262 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\outofstock.xml
+
+23:26:42.474 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+23:26:46.346 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+23:26:46.377 [TestNG-test-Parallel Order Count Verification-1] INFO  testCases.TC013_OutOfStockProdToCart.test_VerifyOutOfStockProdToCart(TC013_OutOfStockProdToCart.java:19)oggger - ****** Starting OutOfStockinCartPage Validation Test ******
+23:27:08.953 [TestNG-test-Parallel Order Count Verification-1] ERROR testCases.TC013_OutOfStockProdToCart.test_VerifyOutOfStockProdToCart(TC013_OutOfStockProdToCart.java:48)oggger - Exception during OutOfStockInCartPage validation: element not interactable
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e16ceb27ff01d3b90db8230bc183dc7b, clickElement {id=f.2BF397AD028AB25D1A999506C0FB4570.d.C34A9C7E18D5F1D2EE57D2DA12B10538.e.221}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61369}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61369/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e16ceb27ff01d3b90db8230bc183dc7b)] -> xpath: //a[@class='wishlist_add btn btn-large']]
+Session ID: e16ceb27ff01d3b90db8230bc183dc7b
+23:27:09.253 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...30
+23:27:09.704 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 30
+23:27:09.704 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 30
+23:27:09.704 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 30
+23:27:55.057 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\outofstock.xml"
+23:27:55.336 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\outofstock.xml
+
+23:27:57.381 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+23:28:01.674 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+23:28:01.710 [TestNG-test-Parallel Order Count Verification-1] INFO  testCases.TC013_OutOfStockProdToCart.test_VerifyOutOfStockProdToCart(TC013_OutOfStockProdToCart.java:19)oggger - ****** Starting OutOfStockinCartPage Validation Test ******
+23:28:23.550 [TestNG-test-Parallel Order Count Verification-1] ERROR testCases.TC013_OutOfStockProdToCart.test_VerifyOutOfStockProdToCart(TC013_OutOfStockProdToCart.java:48)oggger - Exception during OutOfStockInCartPage validation: element not interactable
+  (Session info: chrome=138.0.7204.184)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d4462ae141ac6fc57e7270c4bcd9140, clickElement {id=f.1D83B92503EDDC620597DDFC0A7B004A.d.C3AA757368476119DB5E570FCC170DC3.e.205}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57593}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57593/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8d4462ae141ac6fc57e7270c4bcd9140)] -> xpath: //a[@class='wishlist_add btn btn-large']]
+Session ID: 8d4462ae141ac6fc57e7270c4bcd9140
+23:28:23.857 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...30
+23:28:24.332 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 30
+23:28:24.332 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 30
+23:28:24.332 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 30
+23:29:39.074 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\outofstock.xml"
+23:29:39.358 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\outofstock.xml
+
+23:29:41.234 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+23:29:46.375 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+23:29:46.434 [TestNG-test-Parallel Order Count Verification-1] INFO  testCases.TC013_OutOfStockProdToCart.test_VerifyOutOfStockProdToCart(TC013_OutOfStockProdToCart.java:19)oggger - ****** Starting OutOfStockinCartPage Validation Test ******
+23:30:04.722 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...30
+23:30:05.150 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 30
+23:30:05.150 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 30
+23:30:05.150 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 30
+23:42:17.402 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\outofstock.xml"
+23:42:44.030 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\outofstock.xml"
+23:42:44.346 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\outofstock.xml
+
+23:42:46.637 [TestNG-test-Parallel Order Count Verification-2] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+23:42:46.637 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+23:42:52.428 [TestNG-test-Parallel Order Count Verification-2] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+23:42:52.451 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+23:42:52.508 [TestNG-test-Parallel Order Count Verification-1] INFO  testCases.TC013_OutOfStockProdToCart.test_VerifyOutOfStockProdToCart(TC013_OutOfStockProdToCart.java:19)oggger - ****** Starting OutOfStockinCartPage Validation Test ******
+23:42:52.509 [TestNG-test-Parallel Order Count Verification-2] INFO  testCases.TC014_OutOfStockAlertinCart.test_VerifyOutOfStockAlert(TC014_OutOfStockAlertinCart.java:19)oggger - ****** Starting OutOfStockAlert Validation Test ******
+23:43:11.886 [TestNG-test-Parallel Order Count Verification-2] ERROR testCases.TC014_OutOfStockAlertinCart.test_VerifyOutOfStockAlert(TC014_OutOfStockAlertinCart.java:37)oggger - Exception during OutOfStockAlert validation: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-error alert-danger']//strong"}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5feeaf52bf90ab7eb266ad1348c1fa8d, findElement {using=xpath, value=//div[@class='alert alert-error alert-danger']//strong}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58207}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58207/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5feeaf52bf90ab7eb266ad1348c1fa8d
+23:43:12.145 [TestNG-test-Parallel Order Count Verification-2] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...34
+23:43:12.295 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...33
+23:43:12.533 [TestNG-test-Parallel Order Count Verification-2] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 34
+23:43:12.534 [TestNG-test-Parallel Order Count Verification-2] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 34
+23:43:12.534 [TestNG-test-Parallel Order Count Verification-2] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 34
+23:43:12.729 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 33
+23:43:12.729 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 33
+23:43:12.729 [TestNG-test-Parallel Order Count Verification-1] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 33
+23:44:38.630 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\outofstock.xml"
+23:44:39.023 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\outofstock.xml
+
+23:44:41.124 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+23:44:45.726 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+23:44:45.789 [main] INFO  testCases.TC013_OutOfStockProdToCart.test_VerifyOutOfStockProdToCart(TC013_OutOfStockProdToCart.java:19)oggger - ****** Starting OutOfStockinCartPage Validation Test ******
+23:45:07.487 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+23:45:07.797 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+23:45:07.797 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+23:45:07.797 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+23:45:08.958 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+23:45:13.553 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+23:45:13.557 [main] INFO  testCases.TC014_OutOfStockAlertinCart.test_VerifyOutOfStockAlert(TC014_OutOfStockAlertinCart.java:19)oggger - ****** Starting OutOfStockAlert Validation Test ******
+23:45:22.112 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+23:45:22.412 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+23:45:22.413 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+23:45:22.413 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
