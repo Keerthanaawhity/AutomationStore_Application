@@ -1,11 +1,17 @@
 package pageobjects;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.time.Duration;
 import java.util.Map;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ProductBasePage extends Basepage{
 
@@ -18,7 +24,13 @@ public class ProductBasePage extends Basepage{
 	@FindBy(xpath="//li[span[@class='productinfoleft' and contains(text(),'Model:')]]") WebElement ProdModelName;
 	@FindBy(xpath="//span[@class='nostock']") WebElement OutOfStockButton;
 	@FindBy(xpath="//div[@class='thumbnails grid row list-inline']//div//div[@class='thumbnail']//div[@class='pricetag jumbotron']//span//ancestor::div[@class='pricetag jumbotron']//ancestor::div[@class='thumbnail']") WebElement OutOfStockProduct;
-
+	@FindBy(id="option350") WebElement TshirtColordrpdwn;
+	@FindBy(id="option351") WebElement TshirtSizedrp;
+	@FindBy(xpath="//input[@id='product_quantity']") WebElement ProdQuant;
+	@FindBy(xpath="//span[@class='total-price']") WebElement TotalPrice;
+	@FindBy(xpath="//div[contains(text(),'limit')]") WebElement MaxqtyLimit;
+	@FindBy(xpath="//a[@class='productprint btn btn-large']") WebElement ProductPrintBtn;
+	
 	
     public void addToCartByProductName(String productName) {
         String xpath = String.format("//a[contains(text(),'%s')]/ancestor::div[contains(@class,'fixed')]//a[@title='Add to Cart']", productName);
@@ -65,5 +77,79 @@ public class ProductBasePage extends Basepage{
 	{
 		OutOfStockProduct.click();
 	}
+	
+	public  void SelectShirtColor(String TshirtColor)
+	{
+		Select color = new Select(TshirtColordrpdwn);
+		color.selectByContainsVisibleText(TshirtColor);
+	}
+	
+	public  void SelectShirtSize(String TshirtSize)
+	{
+		Select size = new Select(TshirtSizedrp);
+		size.selectByContainsVisibleText(TshirtSize);
+	}
+	
+	public void SelectQuantity(String quant)
+	{
+	    ProdQuant.clear();
+	    ProdQuant.sendKeys(quant);
+	}
+	
+	public String getProdQuantity()
+	{
+		return ProdQuant.getText();		
+	}
+	
+	public String getUnitPrice()
+	{
+		return TotalPrice.getText();		
+	}
+	
+	private BigDecimal parsePrice(String priceText) {
+	    String cleaned = priceText.replaceAll("[^0-9.]", ""); // removes $, spaces, etc.
+	    return new BigDecimal(cleaned).setScale(2, RoundingMode.HALF_UP);
+	}
 
+	public BigDecimal[] getUpdatedandExpectedTotalPrice(String qty) throws InterruptedException {
+	    // 1 - Get product unit price as BigDecimal
+	    BigDecimal unitPrice = parsePrice(TotalPrice.getText());
+	    System.out.println("Unit Price: " + unitPrice);
+	    
+	    BigDecimal expectedPrice = unitPrice
+	            .multiply(new BigDecimal(qty))
+	            .setScale(2, RoundingMode.HALF_UP);
+	        System.out.println("Expected Price: " + expectedPrice);
+
+	    // 2 - Update quantity
+	    ProdQuant.clear();
+	    ProdQuant.sendKeys(qty);
+
+	    // 3 - Wait until total price changes
+	    new WebDriverWait(driver, Duration.ofSeconds(5))
+	        .until(ExpectedConditions.not(
+	            ExpectedConditions.textToBePresentInElement(
+	                TotalPrice,
+	                unitPrice.toPlainString() // avoid old value
+	            )
+	        ));
+
+	    // 4 - Get updated price as BigDecimal
+	    BigDecimal updatedPrice = parsePrice(TotalPrice.getText());
+	    System.out.println("Updated Price: " + updatedPrice);
+
+	    return new BigDecimal[] {expectedPrice, updatedPrice} ;
+	}
+
+	public String getMaxProdQuantity()
+	{
+		String limitText = MaxqtyLimit.getText().replaceAll("[^0-9]","");
+		return limitText;
+	}
+	
+    public void ClickProdPrintButton()
+    {
+    	ProductPrintBtn.click();
+    }
+	
 }

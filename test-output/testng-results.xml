@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-07T23:44:39 IST" name="Order Count Verification" finished-at="2025-08-07T23:45:22 IST" duration-ms="43168">
+  <suite started-at="2025-08-12T17:34:04 IST" name="TShirt Related Tests" finished-at="2025-08-12T17:34:32 IST" duration-ms="28574">
     <groups>
     </groups>
-    <test started-at="2025-08-07T23:44:39 IST" name="Out Of Stock Verification" finished-at="2025-08-07T23:45:22 IST" duration-ms="43168">
-      <class name="testCases.TC014_OutOfStockAlertinCart">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC014_OutOfStockAlertinCart@503ecb24]" started-at="2025-08-07T23:45:07 IST" name="setup" finished-at="2025-08-07T23:45:13 IST" duration-ms="5748" status="PASS">
+    <test started-at="2025-08-12T17:34:04 IST" name="TShirt Tests" finished-at="2025-08-12T17:34:32 IST" duration-ms="28574">
+      <class name="testCases.TC017_PrintProduct">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC017_PrintProduct@79517588]" started-at="2025-08-12T17:34:04 IST" name="setup" finished-at="2025-08-12T17:34:11 IST" duration-ms="7369" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,41 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_VerifyOutOfStockAlert()[pri:0, instance:testCases.TC014_OutOfStockAlertinCart@503ecb24]" started-at="2025-08-07T23:45:13 IST" name="test_VerifyOutOfStockAlert" finished-at="2025-08-07T23:45:22 IST" duration-ms="8551" status="PASS">
+        <test-method signature="test_VerifyPrintProduct()[pri:0, instance:testCases.TC017_PrintProduct@79517588]" started-at="2025-08-12T17:34:11 IST" name="test_VerifyPrintProduct" finished-at="2025-08-12T17:34:32 IST" duration-ms="20738" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_VerifyOutOfStockAlert -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC014_OutOfStockAlertinCart@503ecb24]" started-at="2025-08-07T23:45:22 IST" name="tearDown" finished-at="2025-08-07T23:45:22 IST" duration-ms="303" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC014_OutOfStockAlertinCart -->
-      <class name="testCases.TC013_OutOfStockProdToCart">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC013_OutOfStockProdToCart@3a0baae5]" started-at="2025-08-07T23:44:39 IST" name="setup" finished-at="2025-08-07T23:44:45 IST" duration-ms="6455" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test_VerifyOutOfStockProdToCart()[pri:0, instance:testCases.TC013_OutOfStockProdToCart@3a0baae5]" started-at="2025-08-07T23:44:45 IST" name="test_VerifyOutOfStockProdToCart" finished-at="2025-08-07T23:45:07 IST" duration-ms="21710" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_VerifyOutOfStockProdToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC013_OutOfStockProdToCart@3a0baae5]" started-at="2025-08-07T23:45:07 IST" name="tearDown" finished-at="2025-08-07T23:45:07 IST" duration-ms="320" status="PASS">
+        </test-method> <!-- test_VerifyPrintProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC017_PrintProduct@79517588]" started-at="2025-08-12T17:34:32 IST" name="tearDown" finished-at="2025-08-12T17:34:32 IST" duration-ms="369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC013_OutOfStockProdToCart -->
-    </test> <!-- Out Of Stock Verification -->
-  </suite> <!-- Order Count Verification -->
+      </class> <!-- testCases.TC017_PrintProduct -->
+    </test> <!-- TShirt Tests -->
+  </suite> <!-- TShirt Related Tests -->
 </testng-results>

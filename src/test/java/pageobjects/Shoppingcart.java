@@ -28,6 +28,7 @@ public class Shoppingcart extends Basepage{
 	@FindBy(xpath="//table[@id='totals_table']//tr[3]//td[2]//span") WebElement TotalCharge;
 	@FindBy(xpath="//a[normalize-space()='Continue Shopping']") WebElement ContShoppingbtn;
 	@FindBy(xpath="//div[@class='alert alert-error alert-danger']//strong") WebElement OutosAlert;
+	@FindBy(xpath="//div[@class='alert alert-error alert-danger']//strong") WebElement MaxLimitAlert;
 	
 	
 	public String getCartProdname()
@@ -141,5 +142,10 @@ public class Shoppingcart extends Basepage{
 		
 	}
 	
+	public String getAlertforMaxLimit()
+	{
+		return MaxLimitAlert.getText();
+		
+	}
 	//////////////////Add Test case for checkout and page object for payment page and confirmation page
 }

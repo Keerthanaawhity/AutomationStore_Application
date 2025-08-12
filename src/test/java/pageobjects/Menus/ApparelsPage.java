@@ -1,5 +1,8 @@
 package pageobjects.Menus;
 
+import java.util.List;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,18 +16,14 @@ public class ApparelsPage extends Basepage {
 		
 	}
 
-	//Locators
-	@FindBy(css = "a[href='https://automationteststore.com/index.php?rt=product/category&path=68_69']") WebElement Shoes;
-	@FindBy(css="a[href='https://automationteststore.com/index.php?rt=product/category&path=68_70']") WebElement TShirts;
-	
-	//ActionMethods
-	public void ClickShoes()
+	public void clickApparelsSubCategory(String categoryName)
 	{
-		Shoes.click();
-	}
-	
-	public void ClickTShirts()
-	{
-		TShirts.click();
+	    List<WebElement> subCats = driver.findElements(By.xpath("//div[@class='subcategories']//a"));
+	    for (WebElement subCat : subCats) {
+	        if (subCat.getText().trim().equalsIgnoreCase(categoryName)) {
+	            subCat.click();
+	            break;
+	        }
+	    }
 	}
 }

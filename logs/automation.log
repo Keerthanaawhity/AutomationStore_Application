@@ -1500,3 +1500,275 @@ Session ID: 5feeaf52bf90ab7eb266ad1348c1fa8d
 23:45:22.412 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
 23:45:22.413 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
 23:45:22.413 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+23:39:32.908 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\TShirt.xml"
+23:39:33.162 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\TShirt.xml
+
+23:40:03.000 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\AppData\Local\Temp\testng-eclipse--1112335907\testng-customsuite.xml"
+23:40:03.250 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:40:03.255 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+23:40:03.258 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:40:03.258 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:40:03.259 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:40:03.260 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:40:03.261 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:40:03.261 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:40:03.264 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:40:03.275 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 11 ms.
+23:40:03.276 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:40:03.277 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:40:03.278 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:40:03.278 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:40:03.279 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:40:03.279 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:40:03.282 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:40:03.282 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:40:03.283 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:40:03.283 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:40:03.287 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:40:03.287 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:40:03.287 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:40:03.287 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:40:03.292 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+23:40:03.293 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:40:03.294 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:40:03.294 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:40:03.295 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:40:03.295 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:40:03.301 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\AppData\Local\Temp\testng-eclipse--1112335907\testng-customsuite.xml
+
+23:40:03.320 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+23:40:03.387 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+23:40:03.387 [main] WARN  testBase.BaseClass.tearDown(BaseClass.java:156)oggger - Driver is null in tearDown for thread: 1. Could not quit browser.
+23:40:03.388 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+23:40:03.512 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.jq.Main@312ab28e: 70 ms
+23:40:03.528 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.FailedReporter@20a14b55: 14 ms
+23:40:03.547 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.XMLReporter@488eb7f2: 19 ms
+23:40:03.561 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@36f48b4: 14 ms
+23:40:03.571 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@1cbf6e72: 9 ms
+23:40:03.572 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Time taken by org.testng.internal.ExitCodeListener@6aecbb8d: 0 ms
+23:49:57.222 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\TShirt.xml"
+23:49:57.477 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\TShirt.xml
+
+23:50:02.428 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+23:50:06.861 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+23:50:19.052 [main] ERROR testCases.TC015_SelectTshirtColorSize.test_VerifyTshirtPurcahse(TC015_SelectTshirtColorSize.java:42)oggger - Exception during Tshirt Size and color selection: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (a12e6faf3743d99446ed4c82f705330b)] -> xpath: //a[normalize-space()='Apparel & accessories']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64556}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64556/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a12e6faf3743d99446ed4c82f705330b
+23:50:19.302 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+23:50:20.321 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+23:50:20.321 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+23:50:20.321 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+23:53:45.119 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\TShirt.xml"
+23:53:45.429 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\TShirt.xml
+
+23:53:47.367 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+23:53:51.605 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+23:54:16.608 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+23:54:17.064 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+23:54:17.064 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+23:54:17.064 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+23:55:30.708 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\TShirt.xml"
+23:55:30.970 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\TShirt.xml
+
+23:55:32.639 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+23:55:37.368 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+23:56:04.469 [main] ERROR testCases.TC015_SelectTshirtColorSize.test_VerifyTshirtPurcahse(TC015_SelectTshirtColorSize.java:43)oggger - Exception during Tshirt Size and color selection: Expected condition failed: waiting for condition to not be valid: text ('64.00') to be present in element [[ChromeDriver: chrome on windows (19f85941e7a3aea12951f2ef845ada71)] -> xpath: //span[@class='total-price']] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64826}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64826/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19f85941e7a3aea12951f2ef845ada71
+23:56:04.828 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+23:56:05.253 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+23:56:05.253 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+23:56:05.253 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+23:58:23.349 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\TShirt.xml"
+23:58:23.621 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\TShirt.xml
+
+23:58:25.274 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+23:58:36.194 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+23:59:04.471 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+23:59:04.903 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+23:59:04.903 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+23:59:04.903 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+00:01:14.440 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\TShirt.xml"
+00:01:14.764 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\TShirt.xml
+
+00:01:16.726 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+00:01:25.136 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+00:01:47.333 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+00:01:47.772 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+00:01:47.772 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+00:01:47.772 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+00:02:49.686 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\TShirt.xml"
+00:02:49.954 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\TShirt.xml
+
+00:02:51.781 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+00:03:01.065 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+00:03:29.434 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+00:03:29.870 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+00:03:29.870 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+00:03:29.870 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+00:06:55.684 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\TShirt.xml"
+00:06:56.074 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\TShirt.xml
+
+00:06:59.830 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+00:07:07.919 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+00:07:31.564 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+00:07:32.072 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+00:07:32.072 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+00:07:32.072 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+00:07:33.267 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+00:07:44.544 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+00:07:50.865 [main] ERROR testCases.TC016_VerifyMaxLimit.test_VerifyMaxLimitTshirt(TC016_VerifyMaxLimit.java:38)oggger - Exception during Verify MaxLimit of Tshirt : stale element reference: stale element not found
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f80744b9bfe2a776a2589bcd7224edf7, isElementDisplayed {id=f.26B5BDA976A376F3795AE30E878BA0F2.d.71A6F51106237FC348E0F07548DDE545.e.93}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57090}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57090/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f80744b9bfe2a776a2589bcd7224edf7)] -> xpath: //a[contains(@href,'path=68')]]
+Session ID: f80744b9bfe2a776a2589bcd7224edf7
+00:07:51.051 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+00:07:51.414 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+00:07:51.414 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+00:07:51.414 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+00:11:06.159 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\TShirt.xml"
+00:11:06.581 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\TShirt.xml
+
+00:11:08.671 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+00:11:18.026 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+00:11:41.075 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+00:11:41.538 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+00:11:41.538 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+00:11:41.538 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+00:11:42.676 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+00:11:50.751 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+00:11:56.570 [main] ERROR testCases.TC016_VerifyMaxLimit.test_VerifyMaxLimitTshirt(TC016_VerifyMaxLimit.java:38)oggger - Exception during Verify MaxLimit of Tshirt : stale element reference: stale element not found
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a47f88edeaa072e1ba9664950d9ef003, isElementDisplayed {id=f.2778B318127DE6C0E2BD974580462EC5.d.F40C0B0744441A079CDE6624BD6A70F9.e.94}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\keert\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57309}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57309/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a47f88edeaa072e1ba9664950d9ef003)] -> xpath: //a[contains(@href,'path=68')]]
+Session ID: a47f88edeaa072e1ba9664950d9ef003
+00:11:56.755 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+00:11:57.109 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+00:11:57.109 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+00:11:57.109 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+00:14:17.687 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\TShirt.xml"
+00:14:17.986 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\TShirt.xml
+
+00:14:19.683 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+00:14:29.404 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+00:14:42.084 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+00:14:42.439 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+00:14:42.439 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+00:14:42.439 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+00:19:49.455 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\TShirt.xml"
+00:19:49.862 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\TShirt.xml
+
+00:19:51.836 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+00:19:59.932 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+00:20:23.461 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+00:20:23.927 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+00:20:23.927 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+00:20:23.933 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+00:20:25.028 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+00:20:33.575 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+00:20:45.161 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+00:20:45.446 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+00:20:45.449 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+00:20:45.449 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+17:09:12.997 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\PrintProd.xml"
+17:09:13.325 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\PrintProd.xml
+
+17:09:17.454 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+17:09:21.574 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+17:09:33.888 [main] INFO  testCases.TC017_PrintProduct.saveProductPDF(TC017_PrintProduct.java:65)oggger - ****** Pressed Print Button ********
+17:09:39.916 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+17:09:40.329 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+17:09:40.329 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+17:09:40.329 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+17:10:05.943 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\PrintProd.xml"
+17:10:06.266 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\PrintProd.xml
+
+17:10:08.159 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+17:10:11.991 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+17:10:25.699 [main] INFO  testCases.TC017_PrintProduct.saveProductPDF(TC017_PrintProduct.java:65)oggger - ****** Pressed Print Button ********
+17:10:31.742 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+17:10:32.268 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+17:10:32.268 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+17:10:32.268 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+17:10:55.814 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\PrintProd.xml"
+17:10:56.102 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\PrintProd.xml
+
+17:10:57.949 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+17:11:02.517 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+17:11:15.250 [main] INFO  testCases.TC017_PrintProduct.saveProductPDF(TC017_PrintProduct.java:65)oggger - ****** Pressed Print Button ********
+17:11:21.300 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+17:11:21.784 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+17:11:21.784 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+17:11:21.784 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+17:17:20.423 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\PrintProd.xml"
+17:17:20.728 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\PrintProd.xml
+
+17:17:22.601 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+17:17:27.755 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+17:17:42.816 [main] INFO  testCases.TC017_PrintProduct.saveProductPDF(TC017_PrintProduct.java:66)oggger - ****** Pressed Print Button ********
+17:17:45.848 [main] INFO  testCases.TC017_PrintProduct.saveProductPDF(TC017_PrintProduct.java:71)oggger - Setting file path to clipboard: D:\PrintProduct\Designer Men Casual Formal Double Cuffs Grandad Band Collar Shirt Elegant Tie.pdf
+17:17:45.889 [main] INFO  testCases.TC017_PrintProduct.saveProductPDF(TC017_PrintProduct.java:73)oggger - Pasting path and pressing Enter
+17:17:48.928 [main] INFO  testCases.TC017_PrintProduct.saveProductPDF(TC017_PrintProduct.java:91)oggger - File saved to: D:\PrintProduct\Designer Men Casual Formal Double Cuffs Grandad Band Collar Shirt Elegant Tie.pdf
+17:17:48.946 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+17:17:49.451 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+17:17:49.451 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+17:17:49.451 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+17:32:06.697 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\PrintProd.xml"
+17:32:06.970 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\PrintProd.xml
+
+17:32:08.740 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+17:32:12.742 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+17:32:25.573 [main] INFO  testCases.TC017_PrintProduct.saveProductPDF(TC017_PrintProduct.java:66)oggger - ****** Pressed Print Button ********
+17:32:28.593 [main] INFO  testCases.TC017_PrintProduct.saveProductPDF(TC017_PrintProduct.java:71)oggger - Setting file path to clipboard: D:\PrintProduct\Designer Men Casual Formal Double Cuffs Grandad Band Collar Shirt Elegant Tie.pdf
+17:32:28.639 [main] INFO  testCases.TC017_PrintProduct.saveProductPDF(TC017_PrintProduct.java:73)oggger - Pasting path and pressing Enter
+17:32:32.289 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+17:32:32.787 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+17:32:32.787 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+17:32:32.787 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+17:34:03.740 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\PrintProd.xml"
+17:34:04.012 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\PrintProd.xml
+
+17:34:05.702 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+17:34:11.648 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+17:34:26.315 [main] INFO  testCases.TC017_PrintProduct.saveProductPDF(TC017_PrintProduct.java:66)oggger - ****** Pressed Print Button ********
+17:34:29.332 [main] INFO  testCases.TC017_PrintProduct.saveProductPDF(TC017_PrintProduct.java:71)oggger - Setting file path to clipboard: D:\PrintProduct\Designer Men Casual Formal Double Cuffs Grandad Band Collar Shirt Elegant Tie.pdf
+17:34:29.380 [main] INFO  testCases.TC017_PrintProduct.saveProductPDF(TC017_PrintProduct.java:73)oggger - Pasting path and pressing Enter
+17:34:32.409 [main] INFO  testCases.TC017_PrintProduct.saveProductPDF(TC017_PrintProduct.java:95)oggger - File saved to: D:\PrintProduct\Designer Men Casual Formal Double Cuffs Grandad Band Collar Shirt Elegant Tie.pdf
+17:34:32.430 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+17:34:32.798 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+17:34:32.798 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+17:34:32.798 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
