@@ -3,6 +3,7 @@ package pageobjects;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.time.Duration;
+import java.util.List;
 import java.util.Map;
 
 import org.openqa.selenium.By;
@@ -30,6 +31,7 @@ public class ProductBasePage extends Basepage{
 	@FindBy(xpath="//span[@class='total-price']") WebElement TotalPrice;
 	@FindBy(xpath="//div[contains(text(),'limit')]") WebElement MaxqtyLimit;
 	@FindBy(xpath="//a[@class='productprint btn btn-large']") WebElement ProductPrintBtn;
+	@FindBy(xpath="//select[@id='sort']") WebElement SortList;
 	
 	
     public void addToCartByProductName(String productName) {
@@ -150,6 +152,16 @@ public class ProductBasePage extends Basepage{
     public void ClickProdPrintButton()
     {
     	ProductPrintBtn.click();
+    }
+    
+    public void ClickSortMenu()
+    {
+    	SortList.click();
+    }
+    
+    public void selectSortOptionByText(WebDriver driver, String visibleText) {
+        Select sortSelect = new Select(SortList);
+        sortSelect.selectByVisibleText(visibleText);
     }
 	
 }

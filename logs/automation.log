@@ -1772,3 +1772,104 @@ Session ID: a47f88edeaa072e1ba9664950d9ef003
 17:34:32.798 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
 17:34:32.798 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
 17:34:32.798 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+23:34:38.340 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\TShirt.xml"
+23:34:38.664 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\TShirt.xml
+
+23:34:42.104 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+23:34:45.984 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+23:35:00.442 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+23:35:00.782 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+23:35:00.782 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+23:35:00.782 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+16:21:44.991 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\sorting.xml"
+16:21:45.295 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\sorting.xml
+
+16:22:54.807 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\sorting.xml"
+16:22:55.075 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\sorting.xml
+
+16:24:03.471 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+16:24:03.525 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+16:24:08.156 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+16:24:09.587 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+16:24:15.486 [main] ERROR testCases.TC019_SortingLtoHVerification.test_VerifyPriceLtoHSort(TC019_SortingLtoHVerification.java:39)oggger - Exception during Verify Price low to high sorting : empty String
+16:24:15.998 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+16:24:16.302 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+16:24:16.302 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+16:24:16.303 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+16:24:16.859 [main] ERROR testCases.TC019_SortingLtoHVerification.test_VerifyPriceLtoHSort(TC019_SortingLtoHVerification.java:39)oggger - Exception during Verify Price low to high sorting : empty String
+16:24:17.161 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+16:24:17.539 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+16:24:17.539 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+16:24:17.539 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+16:31:00.464 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\sorting.xml"
+16:31:00.743 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\sorting.xml
+
+16:31:02.658 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+16:31:07.362 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+16:31:14.902 [main] INFO  testCases.TC019_SortingLtoHVerification.test_VerifyPriceLtoHSort(TC019_SortingLtoHVerification.java:31)oggger - ************** Sorting the actual price list ***********
+16:31:15.179 [main] ERROR testCases.TC019_SortingLtoHVerification.test_VerifyPriceLtoHSort(TC019_SortingLtoHVerification.java:42)oggger - Exception during Verify Price low to high sorting : empty String
+16:31:15.457 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+16:31:15.742 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+16:31:15.742 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+16:31:15.746 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+16:40:57.222 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\sorting.xml"
+16:40:57.478 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\sorting.xml
+
+16:40:59.189 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+16:41:09.843 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+16:41:18.992 [main] INFO  testCases.TC019_SortingLtoHVerification.test_VerifyPriceLtoHSort(TC019_SortingLtoHVerification.java:32)oggger - ************** Sorting the actual price list ***********
+16:41:19.259 [main] ERROR testCases.TC019_SortingLtoHVerification.test_VerifyPriceLtoHSort(TC019_SortingLtoHVerification.java:43)oggger - Exception during Verify Price low to high sorting : empty String
+16:41:19.554 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+16:41:19.892 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+16:41:19.892 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+16:41:19.894 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+16:46:45.177 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\sorting.xml"
+16:46:45.449 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\sorting.xml
+
+16:46:47.184 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+16:46:53.864 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+16:47:09.149 [main] INFO  testCases.TC019_SortingLtoHVerification.test_VerifyPriceLtoHSort(TC019_SortingLtoHVerification.java:32)oggger - ************** Sorting the actual price list ***********
+16:47:09.590 [main] INFO  testCases.TC019_SortingLtoHVerification.test_VerifyPriceLtoHSort(TC019_SortingLtoHVerification.java:34)oggger - ************** Sorting the actual price list ***********
+16:47:14.028 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+16:47:14.387 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+16:47:14.387 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+16:47:14.387 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+22:18:02.896 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\sorting.xml"
+22:18:03.241 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\sorting.xml
+
+22:18:07.624 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+22:18:12.934 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+22:18:23.785 [main] INFO  testCases.TC020_SortingHtoLVerification.test_VerifyPriceHtoLSort(TC020_SortingHtoLVerification.java:31)oggger - ************** Sorting the actual price list ***********
+22:18:24.194 [main] INFO  testCases.TC020_SortingHtoLVerification.test_VerifyPriceHtoLSort(TC020_SortingHtoLVerification.java:33)oggger - ************** Sorting the actual price list ***********
+22:18:26.337 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+22:18:26.640 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+22:18:26.640 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+22:18:26.640 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+22:24:49.714 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Users\keert\eclipse-workspace\PaperbackDemo\sorting.xml"
+22:24:49.798 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+22:24:49.979 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Users\keert\eclipse-workspace\PaperbackDemo\sorting.xml
+
+22:24:51.816 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+22:24:56.961 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+22:25:05.655 [main] INFO  testCases.TC019_SortingLtoHVerification.test_VerifyPriceLtoHSort(TC019_SortingLtoHVerification.java:32)oggger - ************** Sorting the actual price list ***********
+22:25:06.084 [main] INFO  testCases.TC019_SortingLtoHVerification.test_VerifyPriceLtoHSort(TC019_SortingLtoHVerification.java:34)oggger - ************** Sorting the actual price list ***********
+22:25:08.199 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+22:25:08.516 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+22:25:08.516 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+22:25:08.519 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1
+22:25:09.801 [main] INFO  testBase.BaseClass.setup(BaseClass.java:112)oggger - Local WebDriver initialized for chrome
+22:25:14.788 [main] INFO  testBase.BaseClass.setup(BaseClass.java:128)oggger - Application launched: A place to practice your automation skills! on chrome
+22:25:21.328 [main] INFO  testCases.TC020_SortingHtoLVerification.test_VerifyPriceHtoLSort(TC020_SortingHtoLVerification.java:31)oggger - ************** Sorting the actual price list ***********
+22:25:21.776 [main] INFO  testCases.TC020_SortingHtoLVerification.test_VerifyPriceHtoLSort(TC020_SortingHtoLVerification.java:33)oggger - ************** Sorting the actual price list ***********
+22:25:24.761 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:149)oggger - Attempting to enter tearDown method...1
+22:25:25.018 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:160)oggger - Browser closed successfully by AfterClass for thread: 1
+22:25:25.018 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:166)oggger - Removed driver from ThreadLocal for thread: 1
+22:25:25.018 [main] INFO  testBase.BaseClass.tearDown(BaseClass.java:169)oggger - Exiting tearDown method (AfterClass) for thread: 1

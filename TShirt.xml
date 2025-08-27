@@ -9,8 +9,9 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-     	<class name="testCases.TC015_SelectTshirtColorSize"/>
-     	<class name="testCases.TC016_VerifyMaxLimit"/>
+     	<!--<class name="testCases.TC015_SelectTshirtColorSize"/>-->
+     	<!--<class name="testCases.TC016_VerifyMaxLimit"/>-->
+     	<class name="testCases.TC018_UpdatingMaxlimitofProduct"/>
     </classes>
   </test>
 </suite>
